@@ -1426,3 +1426,333 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.03.24-09.03.23:547][994]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
 [2022.03.24-09.03.23:576][994]LogSavePackage: Moving '../../../../../../Users/Matus/Documents/ITP2_PC/ITP2_PC_Game/Main_Project/Primitive_Conflict/Saved/TopDownCharacter_Auto1FA2C474045EDB1CDC0D0E08CD77A4F6D.tmp' to '../../../../../../Users/Matus/Documents/ITP2_PC/ITP2_PC_Game/Main_Project/Primitive_Conflict/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto1.uasset'
 [2022.03.24-09.03.23:577][994]LogFileHelpers: Auto-saving content packages took 0.076
+[2022.03.24-09.04.15:966][284]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera1)
+[2022.03.24-09.04.20:277][787]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.24-09.04.20:284][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.24-09.04.20:284][787]PIE: New page: PIE session: TopDownExampleMap (24.03.2022, 11:04:20)
+[2022.03.24-09.04.20:284][787]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.03.24-09.04.20:292][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008178s)
+[2022.03.24-09.04.20:294][787]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.03.24-09.04.20:294][787]LogPlayLevel: PIE: World Init took: (0.001577s)
+[2022.03.24-09.04.20:294][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009964s)
+[2022.03.24-09.04.20:308][787]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2022.03.24-09.04.20:310][787]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.03.24-09.04.20:310][787]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.24-09.04.20:310][787]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.24-09.04.20:310][787]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.24-09.04.20:310][787]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.24-09.04.20:310][787]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.24-09.04.20:310][787]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.24-09.04.20:310][787]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.24-09.04.20:310][787]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.24-09.04.20:311][787]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.24-09.04.20:311][787]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.24-09.04.20:311][787]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.24-09.04.20:311][787]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.24-09.04.20:314][787]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.24-09.04.20:315][787]LogAudioMixer: Display: 1: FrontRight
+[2022.03.24-09.04.20:399][787]LogAudioMixer: Display: Using Audio Device Speakers (JBL Quantum 400* Game)
+[2022.03.24-09.04.20:399][787]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.24-09.04.20:399][787]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.24-09.04.20:399][787]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.24-09.04.20:399][787]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.24-09.04.20:400][787]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.24-09.04.20:400][787]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.24-09.04.20:400][787]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.24-09.04.20:400][787]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.24-09.04.20:400][787]LogInit: FAudioDevice initialized.
+[2022.03.24-09.04.20:400][787]LogAudio: Display: Audio Device (ID: 7) registered with world 'TopDownExampleMap'.
+[2022.03.24-09.04.20:405][787]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.03.24-09.04.20:407][787]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2022.03.24-10.04.20
+[2022.03.24-09.04.20:407][787]LogWorld: Bringing up level for play took: 0.001431
+[2022.03.24-09.04.20:407][787]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2022.03.24-09.04.20:409][787]PIE: Server logged in
+[2022.03.24-09.04.20:410][787]PIE: Play in editor total start time 0,128 seconds.
+[2022.03.24-09.04.32:648][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.24-09.04.32:648][247]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.03.24-09.04.32:648][247]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.24-09.04.32:649][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.24-09.04.32:655][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.24-09.04.32:693][247]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.24-09.04.32:705][247]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.24-09.04.32:705][247]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.24-09.04.32:706][247]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.24-09.04.32:710][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.24-09.04.32:712][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2022.03.24-09.04.32:755][248]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2022.03.24-09.04.38:220][894]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2022.03.24-09.04.39:212][  6]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2022.03.24-09.04.39:707][ 64]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2022.03.24-09.04.39:761][ 69]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera1)
+[2022.03.24-09.04.54:752][810]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.24-09.04.54:758][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.24-09.04.54:759][810]PIE: New page: PIE session: TopDownExampleMap (24.03.2022, 11:04:54)
+[2022.03.24-09.04.54:759][810]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.03.24-09.04.54:767][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007971s)
+[2022.03.24-09.04.54:768][810]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.03.24-09.04.54:768][810]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2022.03.24-09.04.54:768][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009327s)
+[2022.03.24-09.04.54:781][810]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2022.03.24-09.04.54:785][810]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.03.24-09.04.54:785][810]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.24-09.04.54:785][810]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.24-09.04.54:785][810]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.24-09.04.54:785][810]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.24-09.04.54:785][810]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.24-09.04.54:785][810]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.24-09.04.54:785][810]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.24-09.04.54:785][810]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.24-09.04.54:786][810]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.24-09.04.54:786][810]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.24-09.04.54:786][810]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.24-09.04.54:786][810]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.24-09.04.54:789][810]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.24-09.04.54:789][810]LogAudioMixer: Display: 1: FrontRight
+[2022.03.24-09.04.54:869][810]LogAudioMixer: Display: Using Audio Device Speakers (JBL Quantum 400* Game)
+[2022.03.24-09.04.54:869][810]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.24-09.04.54:869][810]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.24-09.04.54:869][810]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.24-09.04.54:869][810]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.24-09.04.54:869][810]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.24-09.04.54:869][810]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.24-09.04.54:870][810]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.24-09.04.54:870][810]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.24-09.04.54:870][810]LogInit: FAudioDevice initialized.
+[2022.03.24-09.04.54:870][810]LogAudio: Display: Audio Device (ID: 8) registered with world 'TopDownExampleMap'.
+[2022.03.24-09.04.54:877][810]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.03.24-09.04.54:878][810]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2022.03.24-10.04.54
+[2022.03.24-09.04.54:879][810]LogWorld: Bringing up level for play took: 0.001416
+[2022.03.24-09.04.54:879][810]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.03.24-09.04.54:881][810]PIE: Server logged in
+[2022.03.24-09.04.54:881][810]PIE: Play in editor total start time 0,124 seconds.
+[2022.03.24-09.04.58:329][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.24-09.04.58:329][217]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.03.24-09.04.58:329][217]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.24-09.04.58:329][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.24-09.04.58:340][217]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.24-09.04.58:376][217]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.24-09.04.58:387][217]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.24-09.04.58:387][217]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.24-09.04.58:388][217]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.24-09.04.58:392][217]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.24-09.04.58:395][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.03.24-09.04.58:432][218]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.03.24-09.05.03:496][813]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.24-09.05.03:503][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.24-09.05.03:503][813]PIE: New page: PIE session: TopDownExampleMap (24.03.2022, 11:05:03)
+[2022.03.24-09.05.03:503][813]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.03.24-09.05.03:511][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008119s)
+[2022.03.24-09.05.03:512][813]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.03.24-09.05.03:513][813]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2022.03.24-09.05.03:513][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009604s)
+[2022.03.24-09.05.03:526][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.03.24-09.05.03:528][813]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.03.24-09.05.03:528][813]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.24-09.05.03:528][813]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.24-09.05.03:528][813]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.24-09.05.03:528][813]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.24-09.05.03:528][813]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.24-09.05.03:528][813]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.24-09.05.03:528][813]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.24-09.05.03:528][813]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.24-09.05.03:529][813]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.24-09.05.03:529][813]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.24-09.05.03:529][813]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.24-09.05.03:529][813]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.24-09.05.03:532][813]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.24-09.05.03:532][813]LogAudioMixer: Display: 1: FrontRight
+[2022.03.24-09.05.03:609][813]LogAudioMixer: Display: Using Audio Device Speakers (JBL Quantum 400* Game)
+[2022.03.24-09.05.03:609][813]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.24-09.05.03:609][813]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.24-09.05.03:609][813]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.24-09.05.03:609][813]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.24-09.05.03:609][813]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.24-09.05.03:609][813]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.24-09.05.03:610][813]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.24-09.05.03:610][813]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.24-09.05.03:610][813]LogInit: FAudioDevice initialized.
+[2022.03.24-09.05.03:610][813]LogAudio: Display: Audio Device (ID: 9) registered with world 'TopDownExampleMap'.
+[2022.03.24-09.05.03:616][813]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.03.24-09.05.03:618][813]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2022.03.24-10.05.03
+[2022.03.24-09.05.03:618][813]LogWorld: Bringing up level for play took: 0.001389
+[2022.03.24-09.05.03:618][813]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.03.24-09.05.03:620][813]PIE: Server logged in
+[2022.03.24-09.05.03:621][813]PIE: Play in editor total start time 0,119 seconds.
+[2022.03.24-09.05.05:638][ 52]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:638][ 52]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:638][ 52]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:643][ 53]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:643][ 53]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:643][ 53]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:652][ 54]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:652][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:652][ 54]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:660][ 55]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:660][ 55]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:660][ 55]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:668][ 56]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:668][ 56]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:668][ 56]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:677][ 57]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:677][ 57]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:677][ 57]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:685][ 58]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:685][ 58]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:685][ 58]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:694][ 59]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:694][ 59]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:694][ 59]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:702][ 60]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:702][ 60]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:702][ 60]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:710][ 61]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:711][ 61]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:711][ 61]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:719][ 62]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:719][ 62]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:719][ 62]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:727][ 63]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:727][ 63]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:727][ 63]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:735][ 64]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:735][ 64]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:735][ 64]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:744][ 65]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:744][ 65]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:744][ 65]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.05:751][ 66]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.05:751][ 66]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.05:751][ 66]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:027][ 99]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	TopDownController_C /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownController_C_0
+	Function /Game/TopDownBP/Blueprints/TopDownController.TopDownController_C:MoveToHitLocation:00DE
+[2022.03.24-09.05.06:027][ 99]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:027][ 99]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:035][100]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:035][100]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:043][101]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:043][101]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:052][102]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:052][102]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:060][103]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:060][103]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:068][104]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:069][104]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:077][105]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:077][105]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:086][106]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:086][106]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:094][107]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:094][107]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:102][108]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:102][108]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:110][109]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:111][109]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:119][110]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:119][110]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:127][111]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:127][111]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.06:135][112]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  TopDownController Function:  Move to Hit Location Graph:  MoveToHitLocation Node:  Branch
+[2022.03.24-09.05.06:135][112]LogNavigation: Warning: UNavigationSystemV1::SimpleMoveToActor called for NavSys:NavigationSystemV1_0 Controller:TopDownController_C_0 controlling Pawn:None (if any of these is None then there's your problem
+[2022.03.24-09.05.07:279][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.24-09.05.07:279][244]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.03.24-09.05.07:279][244]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.24-09.05.07:280][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.24-09.05.07:288][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.24-09.05.07:321][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.24-09.05.07:333][244]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.24-09.05.07:333][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.24-09.05.07:334][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.24-09.05.07:337][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.24-09.05.07:340][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2022.03.24-09.05.07:414][244]LogSlate: Took 0.000741 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.03.24-09.05.07:439][245]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.03.24-09.05.09:245][432]LogSlate: Window 'Message Log' being destroyed
+[2022.03.24-09.05.09:253][432]LogSlate: Window 'Message Log' being destroyed
+[2022.03.24-09.05.17:774][438]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2022.03.24-09.05.17:855][446]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera1)
+[2022.03.24-09.05.20:258][727]LogTemp: Repeating last play command: Selected Viewport
+[2022.03.24-09.05.20:265][727]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.03.24-09.05.20:265][727]PIE: New page: PIE session: TopDownExampleMap (24.03.2022, 11:05:20)
+[2022.03.24-09.05.20:265][727]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.03.24-09.05.20:273][727]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008042s)
+[2022.03.24-09.05.20:274][727]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2022.03.24-09.05.20:274][727]LogPlayLevel: PIE: World Init took: (0.001280s)
+[2022.03.24-09.05.20:274][727]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.009493s)
+[2022.03.24-09.05.20:289][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2022.03.24-09.05.20:293][727]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.03.24-09.05.20:293][727]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.03.24-09.05.20:293][727]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.03.24-09.05.20:293][727]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.03.24-09.05.20:293][727]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.03.24-09.05.20:293][727]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.03.24-09.05.20:293][727]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.03.24-09.05.20:293][727]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.03.24-09.05.20:293][727]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.03.24-09.05.20:294][727]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.03.24-09.05.20:294][727]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.03.24-09.05.20:294][727]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.03.24-09.05.20:294][727]LogAudioMixer: Display: Initializing audio mixer.
+[2022.03.24-09.05.20:297][727]LogAudioMixer: Display: 0: FrontLeft
+[2022.03.24-09.05.20:297][727]LogAudioMixer: Display: 1: FrontRight
+[2022.03.24-09.05.20:375][727]LogAudioMixer: Display: Using Audio Device Speakers (JBL Quantum 400* Game)
+[2022.03.24-09.05.20:375][727]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.03.24-09.05.20:375][727]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.03.24-09.05.20:375][727]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.03.24-09.05.20:376][727]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.03.24-09.05.20:376][727]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.03.24-09.05.20:376][727]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.03.24-09.05.20:377][727]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.03.24-09.05.20:377][727]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.03.24-09.05.20:377][727]LogInit: FAudioDevice initialized.
+[2022.03.24-09.05.20:377][727]LogAudio: Display: Audio Device (ID: 10) registered with world 'TopDownExampleMap'.
+[2022.03.24-09.05.20:388][727]LogLoad: Game class is 'TopDownGameMode_C'
+[2022.03.24-09.05.20:390][727]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2022.03.24-10.05.20
+[2022.03.24-09.05.20:390][727]LogWorld: Bringing up level for play took: 0.001365
+[2022.03.24-09.05.20:390][727]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2022.03.24-09.05.20:392][727]PIE: Server logged in
+[2022.03.24-09.05.20:393][727]PIE: Play in editor total start time 0,129 seconds.
+[2022.03.24-09.05.26:408][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.24-09.05.26:408][442]LogWorld: BeginTearingDown for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2022.03.24-09.05.26:408][442]LogWorld: UWorld::CleanupWorld for TopDownExampleMap, bSessionEnded=true, bCleanupResources=true
+[2022.03.24-09.05.26:408][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.24-09.05.26:419][442]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.03.24-09.05.26:456][442]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.03.24-09.05.26:467][442]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.03.24-09.05.26:467][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.24-09.05.26:468][442]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.03.24-09.05.26:471][442]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.03.24-09.05.26:474][442]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2022.03.24-09.05.26:511][443]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.03.24-09.05.31:461][978]LogEditorViewport: Clicking on Actor (LMB): TopDownCharacter_C (TopDownCharacter)
+[2022.03.24-09.05.31:507][982]LogEditorViewport: Clicking on Component (LMB): CameraComponent (Camera1)
