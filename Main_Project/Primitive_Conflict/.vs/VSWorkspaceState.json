@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Content\\Collections",
-    "\\Content\\Developers",
-    "\\Content\\Mannequin",
-    "\\Content\\Mannequin\\Animations"
+    "\\DerivedDataCache"
   ],
-  "SelectedNode": "\\Content",
+  "SelectedNode": "\\Script",
   "PreviewInSolutionExplorer": false
 }
