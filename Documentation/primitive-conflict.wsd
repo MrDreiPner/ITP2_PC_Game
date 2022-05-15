@@ -1,0 +1,85 @@
+@startuml primCon 
+
+interface Units {
+    #bool active
+    #int cost
+    #int atk 
+    #int def 
+    #int move
+    #int range 
+    #int id
+    #int playerTag
+    #int x 
+    #int y 
+    #int type
+    #int weakness
+    +attack()
+    +move()
+    +wait()
+}
+
+class Infantry 
+class Range 
+class Cavalry
+class Siege{
+    -int aoeRange
+}
+
+interface Terrain{
+    #bool moveCheck
+    #int moveMod
+    #int atkMod
+    #int defMod 
+    #int rangeMod
+    #int stop
+}
+
+
+class Impasse{
+    const bool moveCheck = false
+}
+class Plain
+class Mountain
+class Hill
+class Forest
+class Shallow
+class River
+class Ocean
+
+class Grid{
+    -array[][] Terrain 
+    +fill()
+}
+
+class Player{
+    -Army
+    +placeUnit()
+}
+
+class Game{
+    -Player Player1
+    -Player Player2
+    -Grid Map
+    +checkWin()
+}
+
+Player - Units : owns >
+Grid - Terrain : contains >
+Game - Player : plays <
+
+
+Infantry <|-- Units
+Range <|-- Units
+Cavalry <|-- Units
+Siege <|-- Units
+
+Impasse <|-- Terrain
+Plain <|-- Terrain
+Mountain <|-- Impasse
+Hill <|-- Terrain
+Forest <|-- Terrain
+Shallow <|-- Terrain
+River <|-- Impasse
+Ocean <|-- Impasse
+
+@enduml
