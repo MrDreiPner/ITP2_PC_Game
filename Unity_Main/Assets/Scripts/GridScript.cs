@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Grid : MonoBehaviour
 {
+    public void fill(){
+        
+    }
     // Start is called before the first frame update
     void Start()
     {

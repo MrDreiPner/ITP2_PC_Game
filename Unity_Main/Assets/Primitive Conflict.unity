@@ -2597,8 +2597,9 @@ GameObject:
   - component: {fileID: 938895842}
   - component: {fileID: 938895844}
   - component: {fileID: 938895843}
+  - component: {fileID: 938895845}
   m_Layer: 0
-  m_Name: Unbenanntes_Projekt 3_0
+  m_Name: Soldier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2692,6 +2693,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &938895845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938895841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75440854dad329745bf2edf71d368acc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1033464580
 GameObject:
   m_ObjectHideFlags: 0
