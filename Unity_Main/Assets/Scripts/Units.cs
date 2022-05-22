@@ -10,7 +10,7 @@ public abstract class Units : MonoBehaviour
         print("unit created");
     }
     ~Units(){
-        print("unit delated");
+        print("unit deleted");
     }
 
     public abstract void attack();
@@ -24,13 +24,18 @@ public abstract class Units : MonoBehaviour
     protected int def;
     protected int move;
     protected int range;
-    protected int id;
+    //protected int id;
     protected int playerTag;
     protected int x;
     protected int y;
-    protected int type;
+    protected Types type;
     protected int weakness;
-    
+    protected enum Types
+    {
+        infantry, archer, cavalry, siege
+    };
+    protected SpriteRenderer spriteRenderer;
+    protected Sprite sprite;
     // Start is called before the first frame update
     void Start()
     {

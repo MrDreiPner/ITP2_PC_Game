@@ -6,15 +6,15 @@ public class Game : MonoBehaviour
 {   
 //Konstruktor
     public Game(){
-        print("game was created");
+        print("Game created");
         //Player1 = new Player();
         //Player2 = new Player();
     }
 //Destuktor
     ~Game(){
-        print("game was deleted");
+        print("Game deleted");
     }
-//public Mathods 
+//public Methods 
     public bool checkWin(){
         bool win = false;
 

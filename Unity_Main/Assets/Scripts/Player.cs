@@ -6,6 +6,9 @@ public class Player : MonoBehaviour
 {
 //Konstruktor
     public Player(){
+        //army.Add(new Infantry());
+        //army.Add(new Infantry());
+        //army.Add(new Infantry());
         print("player was created");
     }
 //Destruktor
@@ -14,7 +17,9 @@ public class Player : MonoBehaviour
     }
 //public Methods
     public void placeUnit(){
-
+        GameObject childObject = new GameObject("Infantry-1");
+        childObject.transform.parent = this.transform;
+        childObject.AddComponent<Infantry>();
     }
 //Private Variables
     private List <Units> army;
@@ -24,7 +29,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        placeUnit();
     }
 
     // Update is called once per frame
