@@ -26,8 +26,8 @@ public abstract class Units : MonoBehaviour
     protected int range;
     //protected int id;
     protected int playerTag;
-    protected int x;
-    protected int y;
+    protected float x;
+    protected float y;
     protected Types type;
     protected int weakness;
     protected enum Types

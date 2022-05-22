@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
         GameObject childObject = new GameObject("Infantry-1");
         childObject.transform.parent = this.transform;
         childObject.AddComponent<Infantry>();
+        
     }
 //Private Variables
     private List <Units> army;
