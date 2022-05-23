@@ -8,6 +8,7 @@ public class Infantry : Units
     {
         active = false;
         cost = 5;
+        hp = 30;
         atk = 15;
         def = 10;
         move = 4;
@@ -17,7 +18,7 @@ public class Infantry : Units
         x = 2;
         y = 2.5f;
         type = 0;
-        weakness = 1;
+        weakness = Types.range;
     }
     // Start is called before the first frame update
     void Start()
@@ -38,7 +39,11 @@ public class Infantry : Units
         
     }
 
-    public override void attack() { }
+    public override void attack(Units target)
+    { 
+        if( != 0)
+        float dmg =   
+    }
     public override void moving() { }
     //falls wait() für alle gleich ist hier implementieren
     public override void wait() { }

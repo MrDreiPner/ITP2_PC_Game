@@ -61,7 +61,7 @@
     <Compile Include="Assets\Scripts\types of units\Siege.cs" />
     <Compile Include="Assets\Scripts\types of units\Infantry.cs" />
     <Compile Include="Assets\Scripts\different terrains\Hill.cs" />
-    <Compile Include="Assets\Scripts\different terrains\Plain.cs" />
+    <Compile Include="Assets\Scripts\different terrains\Plains.cs" />
     <Compile Include="Assets\Scripts\different terrains\Impasse.cs" />
     <Compile Include="Assets\Scripts\different terrains\Forest.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />

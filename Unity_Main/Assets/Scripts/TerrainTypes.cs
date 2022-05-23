@@ -4,14 +4,39 @@ using UnityEngine;
 
 public class TerrainTypes : MonoBehaviour
 {
-    protected bool moveCheck;
+    //protected bool moveCheck;
     protected int moveMod;
-    protected int atkMod;
-    protected int defMod;
-    protected int rangeMode;
-    protected int stop;
+    protected Types atkModUnit;
+    protected float atkMod;
+    protected Types defModUnit;
+    protected float defMod;
 
+    public int MoveMod
+    {
+        get { return moveMod; }
+    }
+    public float AtkMod
+    {
+        get { return defMod; }
+    }
+    public float DefMod
+    {
+        get { return defMod; }
+    }
+    public Types AtkModUnit
+    {
+        get { return atkModUnit; } 
+    }
+    public Types DefModUnit
+    {
+        get { return defModUnit; }
+    }
 
+    public enum Types
+    {
+        infantry, range, cavalry, siege
+    };
+    //protected bool stop;
 
     // Start is called before the first frame update
     void Start()
