@@ -13,13 +13,14 @@ public abstract class Units : MonoBehaviour
         print("unit deleted");
     }
     public abstract void attack(Units target);
+    //public abstract void defend();
     public abstract void moving();
     //falls wait() für alle gleich ist hier implementieren
     public abstract void wait();
 
     protected bool active;
     protected int cost;
-    protected float hp;
+    protected int hp;
     protected int atk;
     protected int def;
     protected int move;
@@ -31,6 +32,19 @@ public abstract class Units : MonoBehaviour
     protected Types type;
     protected Types weakness;
 
+    public Types Type
+    {
+        get;
+    }
+    public Types Weakness
+    {
+        get;
+    }
+    public int Defense
+    {
+        get { return def; }
+        set { def = value; }
+    }
     public bool Active
     {
         get { return active; }
@@ -45,13 +59,13 @@ public abstract class Units : MonoBehaviour
     {
         get { return cost; }
     }
-    public float HP
+    public int HP
     {
         get { return hp; }
-        set { hp -= value; }
+        set { hp = value; }
     }
 
-    protected enum Types
+    public enum Types
     {
         infantry, range, cavalry, siege
     };
