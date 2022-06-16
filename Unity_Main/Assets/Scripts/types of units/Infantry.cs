@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System;
 
 public class Infantry : Units
 {
+    Movement movement;
     public Infantry()
     {
         active = false;
@@ -20,6 +20,7 @@ public class Infantry : Units
         y = 2.5f;
         type = 0;
         weakness = Types.range;
+        
     }
     // Start is called before the first frame update
     void Start()
@@ -28,10 +29,22 @@ public class Infantry : Units
         sprite = Resources.Load<Sprite>("soldier_1"); 
         spriteRenderer.sprite = sprite;
         print(cost);
-        //gameObject.AddComponent<Movement>();
+        
+        gameObject.AddComponent<Movement>();
+        int stopMe = 6;
+        int hill = 7;
+        int village = 8;
+        int castle = 9;
+        int forest = 10;
+
+
+        LayerMask stopsMovement = LayerMask.GetMask("WhatStopsMovement");
+        stopsMovement |= (1 << 6);
+        GameObject unitMovePoint = new GameObject("MovePoint");
+        unitMovePoint.transform.parent = this.transform;
         //transform.position = new Vector3(x, y, 0);
-       // GameObject movePoint = new GameObject("UnitMovePoint");
-       // movePoint.transform.parent = this.transform;
+        // GameObject movePoint = new GameObject("UnitMovePoint");
+        // movePoint.transform.parent = this.transform;
     }
 
     // Update is called once per frame

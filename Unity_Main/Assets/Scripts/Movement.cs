@@ -10,6 +10,8 @@ public class Movement : MonoBehaviour
     public LayerMask whatStopsMovement;
     public LayerMask EnterVill;
     public LayerMask EnterCast;
+    public LayerMask EnterForest;
+    public LayerMask EnterHill;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,14 @@ public class Movement : MonoBehaviour
                     {
                         Debug.Log("Huzza!");
                     }
+                    if(Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterHill))
+                    {
+                        Debug.Log("On top of the world!");
+                    }
+                    if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterForest))
+                    {
+                        Debug.Log("I am Groot!");
+                    }
                     movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
                     Debug.Log("Movin out!");
                 }
@@ -43,6 +53,14 @@ public class Movement : MonoBehaviour
                         Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, EnterCast))
                     {
                         Debug.Log("Huzza!");
+                    }
+                    if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterHill))
+                    {
+                        Debug.Log("On top of the world!");
+                    }
+                    if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterForest))
+                    {
+                        Debug.Log("I am Groot!");
                     }
                     movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
                     Debug.Log("Movin out!");

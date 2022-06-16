@@ -5211,7 +5211,7 @@ GameObject:
   - component: {fileID: 938895846}
   m_Layer: 0
   m_Name: Soldier
-  m_TagString: Untagged
+  m_TagString: UnitTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5253,6 +5253,12 @@ MonoBehaviour:
   EnterCast:
     serializedVersion: 2
     m_Bits: 512
+  EnterForest:
+    serializedVersion: 2
+    m_Bits: 0
+  EnterHill:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!212 &938895844
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7543,7 +7549,7 @@ GameObject:
   - component: {fileID: 1087970826}
   m_Layer: 0
   m_Name: UnitMovePoint
-  m_TagString: Untagged
+  m_TagString: MovePoint
   m_Icon: {fileID: 1206586993520771344, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
