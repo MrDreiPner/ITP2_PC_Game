@@ -29,7 +29,7 @@ public class Infantry : Units
     void Start()
     {
         spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-        sprite = Resources.Load<Sprite>("soldier_1"); 
+        sprite = Resources.Load<Sprite>("soldier_01"); 
         spriteRenderer.sprite = sprite;
         print(cost);
         
