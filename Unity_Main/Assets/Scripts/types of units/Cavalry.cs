@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class Cavalry : Units
 {
+    public Transform movePoint;
 
+    public LayerMask EnterForest = (1 << 10);
+    public LayerMask EnterHill = (1 << 7);
     public Cavalry()
     {
         active = false;
@@ -39,7 +42,17 @@ public class Cavalry : Units
     {
         
     }
+    public override float defend()
+    {
+        float def = 1;
 
+        if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterHill))
+        {
+            def += 0.2f;
+        }
+
+        return def * this.Defense;
+    }
     public override void attack(Units target)
     {
         //atk, hp, defense, range
@@ -48,7 +61,7 @@ public class Cavalry : Units
         if (target.Weakness == this.type)
             atkBonus = 1.2f;
 
-        float damage = (atkBonus * atk) - target.Defense;
+        float damage = (atkBonus * atk) - target.defend();
 
         if (damage > 0)
             target.HP = target.HP - (int)Mathf.Round(damage);

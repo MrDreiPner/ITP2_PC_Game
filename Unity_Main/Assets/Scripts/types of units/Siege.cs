@@ -44,6 +44,10 @@ public class Siege : Units
     }
 
     //attack gehört noch verändert
+    public override float defend()
+    {
+        return 1f;
+    }
     public override void attack(Units target)
     {
         //atk, hp, defense, range

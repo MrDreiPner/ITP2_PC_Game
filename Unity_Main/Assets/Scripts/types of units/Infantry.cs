@@ -8,6 +8,11 @@ public class Infantry : Units
     Movement movement;
     private Vector3Int position;
 
+    public Transform movePoint;
+
+    public LayerMask EnterForest = (1 << 10);
+    public LayerMask EnterHill = (1 << 7);
+
     public Infantry()
     {
         active = false;
@@ -44,23 +49,29 @@ public class Infantry : Units
     {
         
     }
+    public override float defend()
+    {
+        float def = 1;
 
+        if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterHill))
+        {
+            def += 0.2f;
+        }
+        if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterForest))
+        {
+            def += 0.2f;
+        }
+        return def* this.Defense;
+    }
     public override void attack(Units target)
     {
-
-        LayerMask field = LayerMask.GetMask("Mine");
-        field|= (1 << 11);
-        if(field == 11)
-        {
-            print("ich stehe auf einer mine");
-        }
         //atk, hp, defense, range
         float atkBonus = 1;
 
         if (target.Weakness == this.type)
             atkBonus = 1.2f;
-        
-        float damage = (atkBonus*atk) - target.Defense;
+
+        float damage = (atkBonus*atk) - target.defend();
 
         if (damage > 0)
             target.HP = target.HP - (int)Mathf.Round(damage);

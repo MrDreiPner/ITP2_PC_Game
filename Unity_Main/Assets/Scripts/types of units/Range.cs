@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Range : Units
 {
+    public Transform movePoint;
+
+    public LayerMask whatStopsMovement = (1 << 6);
+    public LayerMask EnterVill = (1 << 8);
+    public LayerMask EnterCast = (1 << 9);
+    public LayerMask EnterForest = (1 << 10);
+    public LayerMask EnterHill = (1 << 7);
 
     public Range()
     {
@@ -40,16 +47,37 @@ public class Range : Units
     {
         
     }
+    public override float defend()
+    {
+        float def = 1;
 
+        if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterHill))
+        {
+            def += 0.2f;
+        }
+        if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterForest))
+        {
+            def += 0.2f;
+        }
+        return def * this.Defense;
+    }
     public override void attack(Units target)
     {
-        //atk, hp, defense, range
         float atkBonus = 1;
 
-        if (target.Weakness == this.type)
-            atkBonus = 1.2f;
+       
+        //atk, hp, defense, range
+        
 
-        float damage = (atkBonus * atk) - target.Defense;
+        if (target.Weakness == this.type)
+            atkBonus += 0.2f;
+
+        if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterHill))
+        {
+            atkBonus += 0.2f;
+        }
+
+        float damage = (atkBonus * atk) - target.defend();
 
         if (damage > 0)
             target.HP = target.HP - (int)Mathf.Round(damage);
