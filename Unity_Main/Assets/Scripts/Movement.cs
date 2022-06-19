@@ -7,11 +7,11 @@ public class Movement : MonoBehaviour
     public float moveSpeed = 5.0f;
     public Transform movePoint;
 
-    public LayerMask whatStopsMovement;
-    public LayerMask EnterVill;
-    public LayerMask EnterCast;
-    public LayerMask EnterForest;
-    public LayerMask EnterHill;
+    public LayerMask whatStopsMovement = (1 << 6);
+    public LayerMask EnterVill = (1 << 8);
+    public LayerMask EnterCast = (1 << 9);
+    public LayerMask EnterForest = (1 << 10);
+    public LayerMask EnterHill = (1 << 7);
 
     // Start is called before the first frame update
     void Start()

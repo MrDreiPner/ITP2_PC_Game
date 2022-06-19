@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class Infantry : Units
 {
     Movement movement;
+    private Vector3Int position;
+
     public Infantry()
     {
         active = false;
@@ -31,11 +34,12 @@ public class Infantry : Units
         print(cost);
         
         gameObject.AddComponent<Movement>();
-        int stopMe = 6;
+        /*int stopMe = 6;
         int hill = 7;
         int village = 8;
         int castle = 9;
         int forest = 10;
+        int mine = 11;*/
 
 
         LayerMask stopsMovement = LayerMask.GetMask("WhatStopsMovement");
@@ -55,6 +59,13 @@ public class Infantry : Units
 
     public override void attack(Units target)
     {
+
+        LayerMask field = LayerMask.GetMask("Mine");
+        field|= (1 << 11);
+        if(field == 11)
+        {
+            print("ich stehe auf einer mine");
+        }
         //atk, hp, defense, range
         float atkBonus = 1;
 
