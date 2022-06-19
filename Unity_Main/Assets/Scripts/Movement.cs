@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
     public float moveSpeed = 5.0f;
     public Transform movePoint;
 
+
     public LayerMask whatStopsMovement = (1 << 6);
     public LayerMask EnterVill = (1 << 8);
     public LayerMask EnterCast = (1 << 9);
@@ -15,13 +16,18 @@ public class Movement : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
-        movePoint.parent = null;
-    }
+    {  
+        GameObject unitMovePoint = new GameObject("MovePoint");
+        movePoint = null;
+        unitMovePoint.transform.position = new Vector3(0.5f, 0.5f, 0);
+        movePoint = unitMovePoint.transform;
+        //movePoint = unitMovePoint.transform.position;
+}
 
     // Update is called once per frame
     void Update()
     {
+        
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
         
         if(Vector3.Distance(transform.position, movePoint.position) <= .0f)

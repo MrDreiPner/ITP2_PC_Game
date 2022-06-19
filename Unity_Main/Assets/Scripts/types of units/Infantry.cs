@@ -33,19 +33,7 @@ public class Infantry : Units
         spriteRenderer.sprite = sprite;
         print(cost);
         
-        gameObject.AddComponent<Movement>();
-        /*int stopMe = 6;
-        int hill = 7;
-        int village = 8;
-        int castle = 9;
-        int forest = 10;
-        int mine = 11;*/
-
-
-        LayerMask stopsMovement = LayerMask.GetMask("WhatStopsMovement");
-        stopsMovement |= (1 << 6);
-        GameObject unitMovePoint = new GameObject("MovePoint");
-        unitMovePoint.transform.parent = this.transform;
+        //gameObject.AddComponent<Movement>();
         //transform.position = new Vector3(x, y, 0);
         // GameObject movePoint = new GameObject("UnitMovePoint");
         // movePoint.transform.parent = this.transform;

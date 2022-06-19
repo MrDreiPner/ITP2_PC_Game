@@ -23,12 +23,12 @@ public class Player : MonoBehaviour
         GameObject rangeObject = new GameObject("Archer-1");
         rangeObject.transform.parent = this.transform;
         rangeObject.AddComponent<Range>();
-        GameObject cavObject = new GameObject("Cavalry-1");
+        /*GameObject cavObject = new GameObject("Cavalry-1");
         cavObject.transform.parent = this.transform;
         cavObject.AddComponent<Cavalry>();
         GameObject siegeObject = new GameObject("Siege-1");
         siegeObject.transform.parent = this.transform;
-        siegeObject.AddComponent<Siege>();
+        siegeObject.AddComponent<Siege>();*/
 
 
 
