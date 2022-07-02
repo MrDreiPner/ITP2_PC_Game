@@ -12,11 +12,11 @@ public abstract class Units : MonoBehaviour
     ~Units(){
         print("unit deleted");
     }
-    public abstract void attack(Units target);
-    public abstract float defend();
-    public abstract void moving();
+    public abstract void Attack(Units target);
+    public abstract float Defend();
+    public abstract void Moving();
     //falls wait() für alle gleich ist hier implementieren
-    public abstract void wait();
+    public abstract void Wait();
 
     protected bool active;
     protected int cost;

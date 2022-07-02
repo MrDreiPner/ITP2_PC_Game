@@ -44,11 +44,11 @@ public class Siege : Units
     }
 
     //attack gehört noch verändert
-    public override float defend()
+    public override float Defend()
     {
         return 1f;
     }
-    public override void attack(Units target)
+    public override void Attack(Units target)
     {
         //atk, hp, defense, range
         float atkBonus = 1;
@@ -66,7 +66,7 @@ public class Siege : Units
         //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
         move = 0;
     }
-    public override void moving() { }
+    public override void Moving() { }
     //falls wait() für alle gleich ist hier implementieren
-    public override void wait() { }
+    public override void Wait() { }
 }

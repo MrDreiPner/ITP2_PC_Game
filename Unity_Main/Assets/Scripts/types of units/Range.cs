@@ -47,7 +47,7 @@ public class Range : Units
     {
         
     }
-    public override float defend()
+    public override float Defend()
     {
         float def = 1;
 
@@ -61,7 +61,7 @@ public class Range : Units
         }
         return def * this.Defense;
     }
-    public override void attack(Units target)
+    public override void Attack(Units target)
     {
         float atkBonus = 1;
 
@@ -77,7 +77,7 @@ public class Range : Units
             atkBonus += 0.2f;
         }
 
-        float damage = (atkBonus * atk) - target.defend();
+        float damage = (atkBonus * atk) - target.Defend();
 
         if (damage > 0)
             target.HP = target.HP - (int)Mathf.Round(damage);
@@ -87,7 +87,7 @@ public class Range : Units
         //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
         move = 0;
     }
-    public override void moving() { }
+    public override void Moving() { }
     //falls wait() für alle gleich ist hier implementieren
-    public override void wait() { }
+    public override void Wait() { }
 }
