@@ -27,13 +27,9 @@ public class Cavalry : Units
     // Start is called before the first frame update
     void Start()
     {
-        GameObject selectionCircle = new GameObject("SelectionCircle");
-        selectionCircle.transform.parent = this.transform;
-        selectionCircle.transform.position = this.transform.position;
-        spriteRenderer = selectionCircle.AddComponent<SpriteRenderer>();
-        sprite = Resources.Load<Sprite>("Circle");
+        spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
+        sprite = Resources.Load<Sprite>("mounted_01");
         spriteRenderer.sprite = sprite;
-        selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
         print(cost);
         //gameObject.AddComponent<Movement>();
         //transform.position = new Vector3(x, y, 0);
@@ -44,29 +40,7 @@ public class Cavalry : Units
     // Update is called once per frame
     void Update()
     {
-        Transform selectionCircle = transform.GetChild(0);
-        if (active)
-        {
-            selectionCircle.GetComponent<SpriteRenderer>().enabled = true;
-            this.GetComponent<Movement>().enabled = true;
-        }
-        else
-        {
-            selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
-            this.GetComponent<Movement>().enabled = false;
-        }
-        if (playerTag)
-        {
-            selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
-            //this.GetComponent<SpriteRenderer>().flipY = true;
-            //this.GetComponent<SpriteRenderer>().color = Color.blue;
-        }
-        else
-        {
-            selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
-            this.GetComponent<SpriteRenderer>().flipX = true;
-            //this.GetComponent<SpriteRenderer>().color = Color.red;
-        }
+        
     }
     public override float Defend()
     {
