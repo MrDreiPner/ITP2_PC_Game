@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Siege : Units
 {
-    private int aoeRange; 
+    //private int aoeRange; 
 
     public Siege()
     {
@@ -21,7 +21,7 @@ public class Siege : Units
         y = 2.5f;
         type = Types.siege;
         weakness = Types.infantry;
-        aoeRange = 2;
+        //aoeRange = 2;
     }
 
     // Start is called before the first frame update
