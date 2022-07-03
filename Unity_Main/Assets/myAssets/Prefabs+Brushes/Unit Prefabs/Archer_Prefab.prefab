@@ -48,7 +48,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   active: 0
-  playerTag: 1
   movePoint: {fileID: 0}
   whatStopsMovement:
     serializedVersion: 2
