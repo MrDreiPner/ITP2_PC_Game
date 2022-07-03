@@ -62,15 +62,17 @@ public class Infantry : Units
         }
         if(playerTag)
         {
-            selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
-            //this.GetComponent<SpriteRenderer>().flipY = true;
-            //this.GetComponent<SpriteRenderer>().color = Color.blue;
+            selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
+            this.GetComponent<SpriteRenderer>().flipX = true;
+            //sprite = Resources.Load<Sprite>("Circle");
+            //this.GetComponent<SpriteRenderer>().sprite = sprite;
+            this.GetComponent<SpriteRenderer>().color = Color.red;
         }
         else
         {
-            selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
-            this.GetComponent<SpriteRenderer>().flipX = true;
-            //this.GetComponent<SpriteRenderer>().color = Color.red;
+            selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
+            //this.GetComponent<SpriteRenderer>().flipY = true;
+            //this.GetComponent<SpriteRenderer>().color = Color.blue;
         }
     }
     public override float Defend()

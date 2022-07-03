@@ -62,10 +62,6 @@
     <Compile Include="Assets\myAssets\Scripts\types of units\Siege.cs" />
     <Compile Include="Assets\myAssets\Scripts\types of units\Infantry.cs" />
     <Compile Include="Assets\myAssets\Scripts\different terrains\Hill.cs" />
-<<<<<<< Updated upstream
-=======
-    <Compile Include="Assets\myAssets\Scripts\TooltipSystem.cs" />
->>>>>>> Stashed changes
     <Compile Include="Assets\myAssets\Scripts\different terrains\Plains.cs" />
     <Compile Include="Assets\myAssets\Scripts\different terrains\Impasse.cs" />
     <Compile Include="Assets\myAssets\Scripts\different terrains\Forest.cs" />
@@ -75,14 +71,7 @@
     <Compile Include="Assets\myAssets\Scripts\different terrains\Shallow.cs" />
     <Compile Include="Assets\myAssets\Scripts\TerrainTypes.cs" />
     <Compile Include="Assets\myAssets\Scripts\Units.cs" />
-<<<<<<< Updated upstream
-    <Compile Include="Assets\script.cs" />
     <Compile Include="Assets\myAssets\Scripts\types of units\Cavalry.cs" />
-=======
-    <Compile Include="Assets\myAssets\Scripts\Tooltip.cs" />
-    <Compile Include="Assets\myAssets\Scripts\types of units\Cavalry.cs" />
-    <Compile Include="Assets\myAssets\Scripts\TooltipTrigger.cs" />
->>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

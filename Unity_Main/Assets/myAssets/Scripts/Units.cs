@@ -23,7 +23,7 @@ public abstract class Units : MonoBehaviour
     protected int hp;
     protected int atk;
     protected int def;
-    protected int move;
+    public int move;
     protected int range;
     //protected int id;
     public bool playerTag;

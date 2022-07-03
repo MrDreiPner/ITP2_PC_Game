@@ -40,10 +40,6 @@ public class Range : Units
         spriteRenderer.sprite = sprite;
         selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
         print(cost);
-        //gameObject.AddComponent<Movement>();
-        //transform.position = new Vector3(x, y, 0);
-        //GameObject movePoint = new GameObject("UnitMovePoint");
-        //movePoint.transform.parent = this.transform;
     }
 
     // Update is called once per frame
@@ -62,15 +58,17 @@ public class Range : Units
         }
         if (playerTag)
         {
-            selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
-            //this.GetComponent<SpriteRenderer>().flipY = true;
-            //this.GetComponent<SpriteRenderer>().color = Color.blue;
+            selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
+            this.GetComponent<SpriteRenderer>().flipX = true;
+            //sprite = Resources.Load<Sprite>("Circle");
+            //this.GetComponent<SpriteRenderer>().sprite = sprite;
+            this.GetComponent<SpriteRenderer>().color = Color.red;
         }
         else
         {
-            selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
-            this.GetComponent<SpriteRenderer>().flipX = true;
-            //this.GetComponent<SpriteRenderer>().color = Color.red;
+            selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
+            //this.GetComponent<SpriteRenderer>().flipY = true;
+            //this.GetComponent<SpriteRenderer>().color = Color.blue;
         }
     }
     public override float Defend()

@@ -31,10 +31,19 @@ public class Player : MonoBehaviour
         //https://www.youtube.com/watch?v=eACZk-XDP2A
         GameObject infantry = Instantiate(infantryPrefab, transform.position, Quaternion.identity) as GameObject;
         infantry.transform.parent = this.transform;
+        infantry.GetComponent<Units>().playerTag = playerTag;
+        //placeholder values
+        infantry.GetComponent<Units>().move = 5;
         GameObject infantry2 = Instantiate(infantryPrefab, transform.position, Quaternion.identity) as GameObject;
         infantry2.transform.parent = this.transform;
+        infantry2.GetComponent<Units>().playerTag = playerTag;
+        //placeholder values
+        infantry2.GetComponent<Units>().move = 5;
         GameObject archer = Instantiate(archerPrefab, transform.position, Quaternion.identity) as GameObject;
         archer.transform.parent = this.transform;
+        archer.GetComponent<Units>().playerTag = playerTag;
+        //placeholder values
+        archer.GetComponent<Units>().move = 5;
         /* das war schon vorher da
         GameObject infObject = new GameObject("Infantry-1");
         infObject.transform.parent = this.transform;
