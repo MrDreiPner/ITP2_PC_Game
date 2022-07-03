@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Game : MonoBehaviour
 {
     private bool turn; //true = player1, false = player2
+    public GameObject BuyUnitMenu;
 
 //Konstruktor
     public Game(){
@@ -25,15 +27,17 @@ public class Game : MonoBehaviour
     }
 
 //private Variables
-    private Player Player1;
-    private Player Player2;
-    private Grid Map;
+    private GameObject Player1;
+    private GameObject Player2;
+    //private Grid Map;
 
     
     // Start is called before the first frame update
     void Start()
     {
-        Game Spiel = gameObject.AddComponent<Game>(); //evtl noch ändern
+        //Game Spiel = gameObject.AddComponent<Game>(); //evtl noch ändern
+        Player1 = GameObject.Find("Player 1");
+        Player2 = GameObject.Find("Player 2");
     }
 
     // Update is called once per frame
@@ -62,29 +66,61 @@ public class Game : MonoBehaviour
 
     public void Buy()
     {
-        int choice = 0;
+        var dropdown = transform.GetComponent<Dropdown>();
         if(turn == true)
         {
-            //muss noch in ein menü embedded werden
-            /*choose what to buy:
-             *  display player1 money
-             *  display all affordable options
-             *  each option is represented by an int
-             */
-            Player1.AddUnit(choice);
+            if(dropdown.value == 1)
+            {
+                if (Player1.GetComponent<Player>().Money < 5) Debug.Log("Not enough money");
+                else Player1.GetComponent<Player>().AddUnit(dropdown.value);
+                Destroy(dropdown.gameObject);
+            }
+            else if (dropdown.value == 2)
+            {
+                if (Player1.GetComponent<Player>().Money < 7) Debug.Log("Not enough money");
+                else Player1.GetComponent<Player>().AddUnit(dropdown.value);
+                Destroy(dropdown.gameObject);
+            }
+            else if (dropdown.value == 3)
+            {
+                if (Player1.GetComponent<Player>().Money < 10) Debug.Log("Not enough money");
+                else Player1.GetComponent<Player>().AddUnit(dropdown.value);
+                Destroy(dropdown.gameObject);
+            }
+            
         }
         else
         {
-            //das selbe mit player2
-            Player2.AddUnit(choice);
+            if (dropdown.value == 1)
+            {
+                if (Player2.GetComponent<Player>().Money < 5) Debug.Log("Not enough money");
+                else Player2.GetComponent<Player>().AddUnit(dropdown.value + 3);
+            }
+            else if (dropdown.value == 2)
+            {
+                if (Player2.GetComponent<Player>().Money < 7) Debug.Log("Not enough money");
+                else Player2.GetComponent<Player>().AddUnit(dropdown.value + 3);
+            }
+            else if (dropdown.value == 3)
+            {
+                if (Player2.GetComponent<Player>().Money < 10) Debug.Log("Not enough money");
+                else Player2.GetComponent<Player>().AddUnit(dropdown.value + 3);
+            }
+            Destroy(dropdown.gameObject);
         }
     }
 
     //Function for the Round button
     public void ClickTest()
     {
-        //turn = !turn;
+        turn = !turn;
         Debug.Log("Button geklickt");
-       // Debug.Log(turn);
+        Debug.Log(turn);
+    }
+
+    public void BuyMenu()
+    {
+        GameObject menu = Instantiate(BuyUnitMenu, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity) as GameObject;
+        menu.transform.parent = this.transform;
     }
 }
