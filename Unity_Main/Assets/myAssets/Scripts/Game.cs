@@ -8,9 +8,9 @@ public class Game : MonoBehaviour
 
 //Konstruktor
     public Game(){
-        print("Game created");
-        //Player1 = new Player();
-        //Player2 = new Player();
+        //print("Game created");
+        //Player1 = new Player(1);
+        //Player2 = new Player(2);
         turn = true;
     }
 //Destuktor

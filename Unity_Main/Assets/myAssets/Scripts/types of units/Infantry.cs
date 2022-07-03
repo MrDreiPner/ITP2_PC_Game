@@ -13,7 +13,7 @@ public class Infantry : Units
     public LayerMask EnterForest = (1 << 10);
     public LayerMask EnterHill = (1 << 7);
 
-    public Infantry()
+    public Infantry(bool playerTag)
     {
         active = false;
         cost = 5;
@@ -23,31 +23,55 @@ public class Infantry : Units
         move = 4;
         range = 1;
         //id = ;
-        playerTag = 1;
+        this.playerTag = playerTag;
         x = 2;
         y = 2.5f;
         type = 0;
         weakness = Types.range;
-        
+
     }
     // Start is called before the first frame update
     void Start()
     {
-        spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-        sprite = Resources.Load<Sprite>("soldier_01"); 
+        //Unit Selection setup
+        GameObject selectionCircle = new GameObject("SelectionCircle");
+        selectionCircle.transform.parent = this.transform;
+        selectionCircle.transform.position = this.transform.position;
+        spriteRenderer = selectionCircle.AddComponent<SpriteRenderer>();
+        sprite = Resources.Load<Sprite>("Circle");
         spriteRenderer.sprite = sprite;
+        selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
+        //Unit Selection setup DONE
         print(cost);
-        
-        //gameObject.AddComponent<Movement>();
-        //transform.position = new Vector3(x, y, 0);
-        // GameObject movePoint = new GameObject("UnitMovePoint");
-        // movePoint.transform.parent = this.transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        //Unit selection triggers
+        Transform selectionCircle = transform.GetChild(0);
+        if (active)
+        {
+            selectionCircle.GetComponent<SpriteRenderer>().enabled = true;
+            this.GetComponent<Movement>().enabled = true;
+        }
+        else
+        {
+            selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
+            this.GetComponent<Movement>().enabled = false;
+        }
+        if(playerTag)
+        {
+            selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
+            //this.GetComponent<SpriteRenderer>().flipY = true;
+            //this.GetComponent<SpriteRenderer>().color = Color.blue;
+        }
+        else
+        {
+            selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
+            this.GetComponent<SpriteRenderer>().flipX = true;
+            //this.GetComponent<SpriteRenderer>().color = Color.red;
+        }
     }
     public override float Defend()
     {

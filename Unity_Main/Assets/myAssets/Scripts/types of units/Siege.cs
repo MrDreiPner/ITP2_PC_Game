@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Siege : Units
 {
-    private int aoeRange; 
+    //private int aoeRange; 
 
-    public Siege()
+    public Siege(bool playerTag)
     {
         active = false;
         cost = 20;
@@ -16,12 +16,12 @@ public class Siege : Units
         move = 4;
         range = 3;
         //id = ;
-        playerTag = 1;
+        this.playerTag = playerTag;
         x = 2;
         y = 2.5f;
         type = Types.siege;
         weakness = Types.infantry;
-        aoeRange = 2;
+        //aoeRange = 2;
     }
 
     // Start is called before the first frame update
