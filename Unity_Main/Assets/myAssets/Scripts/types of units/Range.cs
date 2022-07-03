@@ -36,16 +36,36 @@ public class Range : Units
         sprite = Resources.Load<Sprite>("archer_01");
         spriteRenderer.sprite = sprite;
         print(cost);
-        //gameObject.AddComponent<Movement>();
-        //transform.position = new Vector3(x, y, 0);
-        //GameObject movePoint = new GameObject("UnitMovePoint");
-        //movePoint.transform.parent = this.transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Transform selectionCircle = transform.GetChild(0);
+        if (active)
+        {
+            selectionCircle.GetComponent<SpriteRenderer>().enabled = true;
+            this.GetComponent<Movement>().enabled = true;
+        }
+        else
+        {
+            selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
+            this.GetComponent<Movement>().enabled = false;
+        }
+        if (playerTag)
+        {
+            selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
+            this.GetComponent<SpriteRenderer>().flipX = true;
+            //sprite = Resources.Load<Sprite>("Circle");
+            //this.GetComponent<SpriteRenderer>().sprite = sprite;
+            this.GetComponent<SpriteRenderer>().color = Color.red;
+        }
+        else
+        {
+            selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
+            //this.GetComponent<SpriteRenderer>().flipY = true;
+            //this.GetComponent<SpriteRenderer>().color = Color.blue;
+        }
     }
     public override float Defend()
     {
@@ -84,10 +104,10 @@ public class Range : Units
 
         //ausgabe am bildschirm noch implementieren
 
-        //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
+        //range gehï¿½rt noch berechnet je nach reichweite funktioniert der angriff oder nicht....
         move = 0;
     }
     public override void Moving() { }
-    //falls wait() für alle gleich ist hier implementieren
+    //falls wait() fï¿½r alle gleich ist hier implementieren
     public override void Wait() { }
 }

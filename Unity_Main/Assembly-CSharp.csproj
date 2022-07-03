@@ -70,7 +70,6 @@
     <Compile Include="Assets\myAssets\Scripts\different terrains\Shallow.cs" />
     <Compile Include="Assets\myAssets\Scripts\TerrainTypes.cs" />
     <Compile Include="Assets\myAssets\Scripts\Units.cs" />
-    <Compile Include="Assets\script.cs" />
     <Compile Include="Assets\myAssets\Scripts\types of units\Cavalry.cs" />
   </ItemGroup>
   <ItemGroup>
