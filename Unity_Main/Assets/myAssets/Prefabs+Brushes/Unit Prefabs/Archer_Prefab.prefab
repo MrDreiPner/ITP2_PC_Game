@@ -48,6 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   active: 0
+  move: 0
   playerTag: 1
   movePoint: {fileID: 0}
   whatStopsMovement:
@@ -94,6 +95,9 @@ MonoBehaviour:
   EnterHill:
     serializedVersion: 2
     m_Bits: 128
+  MeetUnit:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!212 &5154648233448076862
 SpriteRenderer:
   m_ObjectHideFlags: 0

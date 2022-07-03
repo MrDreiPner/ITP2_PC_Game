@@ -10,6 +10,11 @@ public class Cavalry : Units
     public LayerMask EnterHill = (1 << 7);
     public Cavalry(bool playerTag)
     {
+
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
         active = false;
         cost = 10;
         hp = 45;
@@ -18,15 +23,10 @@ public class Cavalry : Units
         move = 6;
         range = 1;
         //id = ;
-        this.playerTag = playerTag;
         x = 2;
         y = 2.5f;
         type = Types.cavalry;
         weakness = 0;
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
         GameObject selectionCircle = new GameObject("SelectionCircle");
         selectionCircle.transform.parent = this.transform;
         selectionCircle.transform.position = this.transform.position;
@@ -34,6 +34,7 @@ public class Cavalry : Units
         sprite = Resources.Load<Sprite>("Circle");
         spriteRenderer.sprite = sprite;
         selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
+        selectionCircle.GetComponent<SpriteRenderer>().sortingOrder = 5;
         print(cost);
         //gameObject.AddComponent<Movement>();
         //transform.position = new Vector3(x, y, 0);

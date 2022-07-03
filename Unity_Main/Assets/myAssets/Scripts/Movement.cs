@@ -13,6 +13,8 @@ public class Movement : MonoBehaviour
     public LayerMask EnterCast = (1 << 9);
     public LayerMask EnterForest = (1 << 10);
     public LayerMask EnterHill = (1 << 7);
+    public LayerMask MeetUnit = (1 << 3);
+    
 
     // Start is called before the first frame update
     void Start()
@@ -30,46 +32,55 @@ public class Movement : MonoBehaviour
     {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
         
-        if(Vector3.Distance(transform.position, movePoint.position) <= .0f)
+        if(this.GetComponent<Units>().move > 0)
         {
-            if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f)
+            if (Vector3.Distance(transform.position, movePoint.position) <= .0f)
             {
-                if(!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, whatStopsMovement)){
-                    if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterVill) ||
-                        Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterCast))
+                if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f)
+                {
+                    if ((!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, whatStopsMovement))
+                        && (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, MeetUnit)))
                     {
-                        Debug.Log("Huzza!");
+                        if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterVill) ||
+                            Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterCast))
+                        {
+                            Debug.Log("Huzza!");
+                        }
+                        if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterHill))
+                        {
+                            Debug.Log("On top of the world!");
+                        }
+                        if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterForest))
+                        {
+                            Debug.Log("I am Groot!");
+                        }
+                        this.GetComponent<Units>().move--; 
+                        movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
+                        Debug.Log("Movin out!");
                     }
-                    if(Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterHill))
-                    {
-                        Debug.Log("On top of the world!");
-                    }
-                    if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterForest))
-                    {
-                        Debug.Log("I am Groot!");
-                    }
-                    movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
-                    Debug.Log("Movin out!");
                 }
-            }
-            else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f)
-            {
-                if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement)){
-                    if (Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, EnterVill) ||
-                        Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, EnterCast))
+                else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f)
+                {
+                    if ((!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement))
+                        && (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, MeetUnit)))
                     {
-                        Debug.Log("Huzza!");
+                        if (Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, EnterVill) ||
+                            Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, EnterCast))
+                        {
+                            Debug.Log("Huzza!");
+                        }
+                        if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterHill))
+                        {
+                            Debug.Log("On top of the world!");
+                        }
+                        if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterForest))
+                        {
+                            Debug.Log("I am Groot!");
+                        }
+                        this.GetComponent<Units>().move--;
+                        movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
+                        Debug.Log("Movin out!");
                     }
-                    if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterHill))
-                    {
-                        Debug.Log("On top of the world!");
-                    }
-                    if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterForest))
-                    {
-                        Debug.Log("I am Groot!");
-                    }
-                    movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
-                    Debug.Log("Movin out!");
                 }
             }
         }

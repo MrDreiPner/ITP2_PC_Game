@@ -14,6 +14,12 @@ public class Range : Units
 
     public Range(bool playerTag)
     {
+
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
         active = false;
         cost = 7;
         hp = 20;
@@ -22,16 +28,10 @@ public class Range : Units
         move = 4;
         range = 3;
         //id = ;
-        this.playerTag = playerTag;
         x = 2;
         y = 2.5f;
         type = Types.range;
         weakness = Types.cavalry;
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
         GameObject selectionCircle = new GameObject("SelectionCircle");
         selectionCircle.transform.parent = this.transform;
         selectionCircle.transform.position = this.transform.position;

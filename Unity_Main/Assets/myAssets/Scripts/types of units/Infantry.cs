@@ -13,7 +13,12 @@ public class Infantry : Units
     public LayerMask EnterForest = (1 << 10);
     public LayerMask EnterHill = (1 << 7);
 
-    public Infantry(bool playerTag)
+    public Infantry()
+    {
+
+    }
+    // Start is called before the first frame update
+    void Start()
     {
         active = false;
         cost = 5;
@@ -23,16 +28,10 @@ public class Infantry : Units
         move = 4;
         range = 1;
         //id = ;
-        this.playerTag = playerTag;
         x = 2;
         y = 2.5f;
         type = 0;
         weakness = Types.range;
-
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
         //Unit Selection setup
         GameObject selectionCircle = new GameObject("SelectionCircle");
         selectionCircle.transform.parent = this.transform;
