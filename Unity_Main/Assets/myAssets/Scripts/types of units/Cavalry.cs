@@ -8,7 +8,7 @@ public class Cavalry : Units
 
     public LayerMask EnterForest = (1 << 10);
     public LayerMask EnterHill = (1 << 7);
-    public Cavalry(bool playerTag)
+    public Cavalry()
     {
         active = false;
         cost = 10;
@@ -18,7 +18,7 @@ public class Cavalry : Units
         move = 6;
         range = 1;
         //id = ;
-        this.playerTag = playerTag;
+        playerTag = 1;
         x = 2;
         y = 2.5f;
         type = Types.cavalry;

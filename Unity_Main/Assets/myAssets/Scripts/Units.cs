@@ -18,7 +18,7 @@ public abstract class Units : MonoBehaviour
     //falls wait() für alle gleich ist hier implementieren
     public abstract void Wait();
 
-    public bool active;
+    protected bool active;
     protected int cost;
     protected int hp;
     protected int atk;
@@ -26,7 +26,7 @@ public abstract class Units : MonoBehaviour
     protected int move;
     protected int range;
     //protected int id;
-    public bool playerTag;
+    protected int playerTag;
     protected float x;
     protected float y;
     protected Types type;
@@ -74,12 +74,12 @@ public abstract class Units : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 }

@@ -12,9 +12,7 @@ GameObject:
   - component: {fileID: -3697166085034709334}
   - component: {fileID: 7560660546622041857}
   - component: {fileID: 3075468250688884562}
-  - component: {fileID: -5098869076852395763}
-  - component: {fileID: -6469387913709258496}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Cavalry_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 622740276051874531}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 5}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -47,7 +45,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d8d406063cd2f14b9e6ad472cc0de95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  active: 0
   movePoint: {fileID: 0}
   EnterForest:
     serializedVersion: 2
@@ -123,7 +120,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 3479d0a2e400ce242a710451100337bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -135,41 +132,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &-5098869076852395763
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 622740276051874531}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.35, y: 0.35}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 1
-  serializedVersion: 2
-  m_Size: {x: 0.35, y: 0.35}
-  m_EdgeRadius: 0
---- !u!114 &-6469387913709258496
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 622740276051874531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e79553e7d8423e4fbd708db4b46f536, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
