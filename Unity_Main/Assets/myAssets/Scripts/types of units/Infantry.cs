@@ -13,7 +13,7 @@ public class Infantry : Units
     public LayerMask EnterForest = (1 << 10);
     public LayerMask EnterHill = (1 << 7);
 
-    public Infantry()
+    public Infantry(int playerTag)
     {
         active = false;
         cost = 5;
@@ -23,7 +23,7 @@ public class Infantry : Units
         move = 4;
         range = 1;
         //id = ;
-        playerTag = 1;
+        this.playerTag = playerTag;
         x = 2;
         y = 2.5f;
         type = 0;

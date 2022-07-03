@@ -9,16 +9,19 @@ public class Player : MonoBehaviour
     public GameObject cavalryPrefab;
     public GameObject archerPrefab;
     public GameObject rangePrefab;
+    public int playerTag;
 
     //Konstruktor
-    public Player(){
+    public Player(int playerTag)
+    {
         //army.Add(new Infantry());
         //army.Add(new Infantry());
         //army.Add(new Infantry());
         print("player was created");
         money = 3;
+        this.playerTag = playerTag;
     }
-//Destruktor
+    //Destruktor
     ~Player(){
         print("player was deleted");
     }
@@ -35,6 +38,7 @@ public class Player : MonoBehaviour
         GameObject rangeObject = new GameObject("Archer-1");
         rangeObject.transform.parent = this.transform;
         rangeObject.AddComponent<Range>();
+        rangeObject.GetComponent<Range>().playerTag = 2;
         */
 
         //das war schon auskommentiert

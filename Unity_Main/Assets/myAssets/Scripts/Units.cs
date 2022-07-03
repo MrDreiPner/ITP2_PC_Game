@@ -26,7 +26,7 @@ public abstract class Units : MonoBehaviour
     protected int move;
     protected int range;
     //protected int id;
-    protected int playerTag;
+    public int playerTag;
     protected float x;
     protected float y;
     protected Types type;
