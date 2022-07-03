@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class Game : MonoBehaviour
 {
+    //public GameObject p1;
+    //public GameObject p2;
     private bool turn; //true = player1, false = player2
 
+    private GameObject player1;
+    private GameObject player2;
 //Konstruktor
     public Game(){
         //print("Game created");
@@ -25,15 +29,17 @@ public class Game : MonoBehaviour
     }
 
 //private Variables
-    private Player Player1;
-    private Player Player2;
-    private Grid Map;
+    //private Player Player1;
+    //private Player Player2;
+    //private Grid Map;
 
     
     // Start is called before the first frame update
     void Start()
     {
-        Game Spiel = gameObject.AddComponent<Game>(); //evtl noch ändern
+        //Game Spiel = gameObject.AddComponent<Game>(); //evtl noch ändern
+        player1 = GameObject.Find("Player1");
+        player2 = GameObject.Find("Player2");
     }
 
     // Update is called once per frame
@@ -71,20 +77,20 @@ public class Game : MonoBehaviour
              *  display all affordable options
              *  each option is represented by an int
              */
-            Player1.AddUnit(choice);
+            //player1.AddUnit(choice);
         }
         else
         {
             //das selbe mit player2
-            Player2.AddUnit(choice);
+            //player2.AddUnit(choice);
         }
     }
 
     //Function for the Round button
     public void ClickTest()
     {
-        //turn = !turn;
+        turn = !turn;
         Debug.Log("Button geklickt");
-       // Debug.Log(turn);
+        Debug.Log(turn);
     }
 }

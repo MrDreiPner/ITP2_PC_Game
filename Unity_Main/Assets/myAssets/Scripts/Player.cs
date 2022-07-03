@@ -12,14 +12,14 @@ public class Player : MonoBehaviour
     public bool playerTag;
 
     //Konstruktor
-    public Player(bool playerTag)
+    public Player()
     {
         //army.Add(new Infantry());
         //army.Add(new Infantry());
         //army.Add(new Infantry());
         print("player was created");
         money = 3;
-        this.playerTag = playerTag;
+        
     }
     //Destruktor
     ~Player(){
@@ -29,12 +29,12 @@ public class Player : MonoBehaviour
     public void PlaceUnit(){
         //Versuch um gleich prefabs hinzuzufügen:
         //https://www.youtube.com/watch?v=eACZk-XDP2A
-        GameObject infantry = Instantiate(infantryPrefab, transform.position, Quaternion.identity) as GameObject;
+      /*  GameObject infantry = Instantiate(infantryPrefab, transform.position, Quaternion.identity) as GameObject;
         infantry.transform.parent = this.transform;
         GameObject infantry2 = Instantiate(infantryPrefab, transform.position, Quaternion.identity) as GameObject;
         infantry2.transform.parent = this.transform;
         GameObject archer = Instantiate(archerPrefab, transform.position, Quaternion.identity) as GameObject;
-        archer.transform.parent = this.transform;
+        archer.transform.parent = this.transform;  */
         /* das war schon vorher da
         GameObject infObject = new GameObject("Infantry-1");
         infObject.transform.parent = this.transform;
@@ -64,18 +64,18 @@ public class Player : MonoBehaviour
         switch (choice)
         {
             case 0:
-                newObject = new GameObject("Infantry-1");
-                newObject.AddComponent<Infantry>();
+                newObject = Instantiate(infantryPrefab, transform.position, Quaternion.identity) as GameObject;
+                newObject.transform.parent = this.transform;
                 money -= 5;
                 break;
             case 1:
-                newObject = new GameObject("Archer-1");
-                newObject.AddComponent<Range>();
+                newObject = Instantiate(archerPrefab, transform.position, Quaternion.identity) as GameObject;
+                newObject.transform.parent = this.transform;
                 money -= 7;
                 break;
             case 2:
-                newObject = new GameObject("Cavalry-1");
-                newObject.AddComponent<Cavalry>();
+                newObject = Instantiate(cavalryPrefab, transform.position, Quaternion.identity) as GameObject;
+                newObject.transform.parent = this.transform;
                 money -= 10;
                 break;
             default:
@@ -108,7 +108,7 @@ public class Player : MonoBehaviour
 
     //Private Variables
     private List <GameObject> army;
-    private int money;
+    public int money;
 
     // Start is called before the first frame update
     void Start()
