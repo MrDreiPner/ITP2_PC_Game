@@ -6,7 +6,7 @@ public class Siege : Units
 {
     //private int aoeRange; 
 
-    public Siege()
+    public Siege(bool playerTag)
     {
         active = false;
         cost = 20;
@@ -16,7 +16,7 @@ public class Siege : Units
         move = 4;
         range = 3;
         //id = ;
-        playerTag = 1;
+        this.playerTag = playerTag;
         x = 2;
         y = 2.5f;
         type = Types.siege;

@@ -8,11 +8,11 @@ public class Player : MonoBehaviour
     public GameObject infantryPrefab;
     public GameObject cavalryPrefab;
     public GameObject archerPrefab;
-    public GameObject rangePrefab;
-    public int playerTag;
+    public GameObject rangePrefab;//Siege wird gelöscht
+    public bool playerTag;
 
     //Konstruktor
-    public Player(int playerTag)
+    public Player(bool playerTag)
     {
         //army.Add(new Infantry());
         //army.Add(new Infantry());
@@ -29,8 +29,12 @@ public class Player : MonoBehaviour
     public void PlaceUnit(){
         //Versuch um gleich prefabs hinzuzufügen:
         //https://www.youtube.com/watch?v=eACZk-XDP2A
-        Instantiate(infantryPrefab, transform.position, Quaternion.identity);
-
+        GameObject infantry = Instantiate(infantryPrefab, transform.position, Quaternion.identity) as GameObject;
+        infantry.transform.parent = this.transform;
+        GameObject infantry2 = Instantiate(infantryPrefab, transform.position, Quaternion.identity) as GameObject;
+        infantry2.transform.parent = this.transform;
+        GameObject archer = Instantiate(archerPrefab, transform.position, Quaternion.identity) as GameObject;
+        archer.transform.parent = this.transform;
         /* das war schon vorher da
         GameObject infObject = new GameObject("Infantry-1");
         infObject.transform.parent = this.transform;

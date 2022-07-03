@@ -13,7 +13,7 @@ public class Infantry : Units
     public LayerMask EnterForest = (1 << 10);
     public LayerMask EnterHill = (1 << 7);
 
-    public Infantry(int playerTag)
+    public Infantry(bool playerTag)
     {
         active = false;
         cost = 5;
@@ -60,7 +60,7 @@ public class Infantry : Units
             selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
             this.GetComponent<Movement>().enabled = false;
         }
-        if(playerTag == 1)
+        if(playerTag)
         {
             selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
             //this.GetComponent<SpriteRenderer>().flipY = true;
