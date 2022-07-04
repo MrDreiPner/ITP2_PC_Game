@@ -12,7 +12,13 @@ public class Range : Units
     public LayerMask EnterForest = (1 << 10);
     public LayerMask EnterHill = (1 << 7);
 
-    public Range()
+    public Range(bool playerTag)
+    {
+
+    }
+
+    // Start is called before the first frame update
+    void Start()
     {
         active = false;
         cost = 7;
@@ -22,20 +28,22 @@ public class Range : Units
         move = 4;
         range = 3;
         //id = ;
-        playerTag = 1;
         x = 2;
         y = 2.5f;
         type = Types.range;
         weakness = Types.cavalry;
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-        sprite = Resources.Load<Sprite>("archer_01");
+        GameObject selectionCircle = new GameObject("SelectionCircle");
+        selectionCircle.transform.parent = this.transform;
+        selectionCircle.transform.position = this.transform.position;
+        spriteRenderer = selectionCircle.AddComponent<SpriteRenderer>();
+        sprite = Resources.Load<Sprite>("Circle");
         spriteRenderer.sprite = sprite;
+        selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
         print(cost);
+        //gameObject.AddComponent<Movement>();
+        //transform.position = new Vector3(x, y, 0);
+        //GameObject movePoint = new GameObject("UnitMovePoint");
+        //movePoint.transform.parent = this.transform;
     }
 
     // Update is called once per frame
@@ -54,17 +62,15 @@ public class Range : Units
         }
         if (playerTag)
         {
-            selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
-            this.GetComponent<SpriteRenderer>().flipX = true;
-            //sprite = Resources.Load<Sprite>("Circle");
-            //this.GetComponent<SpriteRenderer>().sprite = sprite;
-            this.GetComponent<SpriteRenderer>().color = Color.red;
-        }
-        else
-        {
             selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
             //this.GetComponent<SpriteRenderer>().flipY = true;
             //this.GetComponent<SpriteRenderer>().color = Color.blue;
+        }
+        else
+        {
+            selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
+            this.GetComponent<SpriteRenderer>().flipX = true;
+            //this.GetComponent<SpriteRenderer>().color = Color.red;
         }
     }
     public override float Defend()
@@ -104,10 +110,10 @@ public class Range : Units
 
         //ausgabe am bildschirm noch implementieren
 
-        //range gehï¿½rt noch berechnet je nach reichweite funktioniert der angriff oder nicht....
+        //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
         move = 0;
     }
     public override void Moving() { }
-    //falls wait() fï¿½r alle gleich ist hier implementieren
+    //falls wait() für alle gleich ist hier implementieren
     public override void Wait() { }
 }

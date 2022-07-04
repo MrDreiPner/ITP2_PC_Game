@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6146260202846727903}
   - component: {fileID: -2626310478151666918}
+  - component: {fileID: -7159497497650568448}
+  - component: {fileID: 8898500688875301840}
   m_Layer: 8
   m_Name: Village_Prefab
   m_TagString: Untagged
@@ -57,3 +59,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-7159497497650568448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5348560140484130277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: This village
+--- !u!222 &8898500688875301840
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5348560140484130277}
+  m_CullTransparentMesh: 1

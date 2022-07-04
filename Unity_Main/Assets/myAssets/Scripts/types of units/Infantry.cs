@@ -15,6 +15,11 @@ public class Infantry : Units
 
     public Infantry()
     {
+
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
         active = false;
         cost = 5;
         hp = 30;
@@ -23,25 +28,20 @@ public class Infantry : Units
         move = 4;
         range = 1;
         //id = ;
-        playerTag = 1;
         x = 2;
         y = 2.5f;
         type = 0;
         weakness = Types.range;
-        
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        spriteRenderer = gameObject.AddComponent<SpriteRenderer>();
-        sprite = Resources.Load<Sprite>("soldier_01"); 
+        //Unit Selection setup
+        GameObject selectionCircle = new GameObject("SelectionCircle");
+        selectionCircle.transform.parent = this.transform;
+        selectionCircle.transform.position = this.transform.position;
+        spriteRenderer = selectionCircle.AddComponent<SpriteRenderer>();
+        sprite = Resources.Load<Sprite>("Circle");
         spriteRenderer.sprite = sprite;
+        selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
+        //Unit Selection setup DONE
         print(cost);
-        
-        //gameObject.AddComponent<Movement>();
-        //transform.position = new Vector3(x, y, 0);
-        // GameObject movePoint = new GameObject("UnitMovePoint");
-        // movePoint.transform.parent = this.transform;
     }
 
     // Update is called once per frame
@@ -61,17 +61,15 @@ public class Infantry : Units
         }
         if(playerTag)
         {
-            selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
-            this.GetComponent<SpriteRenderer>().flipX = true;
-            //sprite = Resources.Load<Sprite>("Circle");
-            //this.GetComponent<SpriteRenderer>().sprite = sprite;
-            this.GetComponent<SpriteRenderer>().color = Color.red;
-        }
-        else
-        {
             selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
             //this.GetComponent<SpriteRenderer>().flipY = true;
             //this.GetComponent<SpriteRenderer>().color = Color.blue;
+        }
+        else
+        {
+            selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
+            this.GetComponent<SpriteRenderer>().flipX = true;
+            //this.GetComponent<SpriteRenderer>().color = Color.red;
         }
     }
     public override float Defend()
@@ -103,10 +101,10 @@ public class Infantry : Units
 
         //ausgabe am bildschirm noch implementieren
 
-        //range gehï¿½rt noch berechnet je nach reichweite funktioniert der angriff oder nicht....
+        //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
         move = 0;
     }
     public override void Moving() { }
-    //falls wait() fï¿½r alle gleich ist hier implementieren
+    //falls wait() für alle gleich ist hier implementieren
     public override void Wait() { }
 }

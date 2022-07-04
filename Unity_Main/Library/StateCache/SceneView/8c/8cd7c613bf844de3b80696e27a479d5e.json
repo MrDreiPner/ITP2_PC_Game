@@ -1,9 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":false},"in2DMode":true,"pivot":{"x":1.7783775329589844,"y":1.744866132736206,"z":-37.05113220214844},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":7.823457717895508,"orthographic":true}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":true,"pivot":{"x":0.0150687787681818,"y":-0.020418396219611169,"z":-0.6392595767974854},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":6.20856237411499,"orthographic":true}
 >>>>>>> last-working
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":false},"in2DMode":true,"pivot":{"x":356.2996826171875,"y":326.9728698730469,"z":-5999.13525390625},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":472.9692687988281,"orthographic":true}
+>>>>>>> Pat
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":false,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":false},"in2DMode":true,"pivot":{"x":381.2310791015625,"y":143.75885009765626,"z":-114.61827087402344},"rotation":{"x":0.0,"y":0.0,"z":0.0,"w":1.0},"size":395.4256896972656,"orthographic":true}
 >>>>>>> Pat

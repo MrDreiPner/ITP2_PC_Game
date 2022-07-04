@@ -62,19 +62,18 @@
     <Compile Include="Assets\myAssets\Scripts\types of units\Siege.cs" />
     <Compile Include="Assets\myAssets\Scripts\types of units\Infantry.cs" />
     <Compile Include="Assets\myAssets\Scripts\different terrains\Hill.cs" />
-    <Compile Include="Assets\myAssets\Scripts\TooltipSystem.cs" />
     <Compile Include="Assets\myAssets\Scripts\different terrains\Plains.cs" />
     <Compile Include="Assets\myAssets\Scripts\different terrains\Impasse.cs" />
     <Compile Include="Assets\myAssets\Scripts\different terrains\Forest.cs" />
+    <Compile Include="Assets\myAssets\Scripts\Tooltip.cs" />
     <Compile Include="Assets\myAssets\Scripts\Movement.cs" />
     <Compile Include="Assets\myAssets\Scripts\GridScript.cs" />
     <Compile Include="Assets\myAssets\Scripts\Game.cs" />
     <Compile Include="Assets\myAssets\Scripts\different terrains\Shallow.cs" />
     <Compile Include="Assets\myAssets\Scripts\TerrainTypes.cs" />
     <Compile Include="Assets\myAssets\Scripts\Units.cs" />
-    <Compile Include="Assets\myAssets\Scripts\Tooltip.cs" />
+    <Compile Include="Assets\myAssets\Scripts\TooltipManager.cs" />
     <Compile Include="Assets\myAssets\Scripts\types of units\Cavalry.cs" />
-    <Compile Include="Assets\myAssets\Scripts\TooltipTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

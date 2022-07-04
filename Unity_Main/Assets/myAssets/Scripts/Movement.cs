@@ -6,20 +6,23 @@ public class Movement : MonoBehaviour
 {
     public float moveSpeed = 5.0f;
     public Transform movePoint;
-
+    //public Infantry unitValues;
 
     public LayerMask whatStopsMovement = (1 << 6);
     public LayerMask EnterVill = (1 << 8);
     public LayerMask EnterCast = (1 << 9);
     public LayerMask EnterForest = (1 << 10);
     public LayerMask EnterHill = (1 << 7);
+    public LayerMask MeetUnit = (1 << 3);
+    
 
     // Start is called before the first frame update
     void Start()
-    {  
+    {
+        
         GameObject unitMovePoint = new GameObject("MovePoint");
-        movePoint = null;
-        unitMovePoint.transform.position = new Vector3(0.5f, 0.5f, 0);
+        //movePoint = null;
+        unitMovePoint.transform.position = new Vector3(transform.position.x, transform.position.y, 0);
         movePoint = unitMovePoint.transform;
         //movePoint = unitMovePoint.transform.position;
 }
@@ -27,16 +30,16 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
-        int movepoints = this.GetComponent<Units>().move;
-        if (movepoints > 0)
+        
+        if(this.GetComponent<Units>().move > 0)
         {
             if (Vector3.Distance(transform.position, movePoint.position) <= .0f)
             {
                 if (Mathf.Abs(Input.GetAxisRaw("Horizontal")) == 1f)
                 {
-                    if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, whatStopsMovement))
+                    if ((!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, whatStopsMovement))
+                        && (!Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, MeetUnit)))
                     {
                         if (Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterVill) ||
                             Physics2D.OverlapCircle(movePoint.position + new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f), .2f, EnterCast))
@@ -51,13 +54,15 @@ public class Movement : MonoBehaviour
                         {
                             Debug.Log("I am Groot!");
                         }
+                        this.GetComponent<Units>().move--; 
                         movePoint.position += new Vector3(Input.GetAxisRaw("Horizontal"), 0f, 0f);
                         Debug.Log("Movin out!");
                     }
                 }
                 else if (Mathf.Abs(Input.GetAxisRaw("Vertical")) == 1f)
                 {
-                    if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement))
+                    if ((!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, whatStopsMovement))
+                        && (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, MeetUnit)))
                     {
                         if (Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, EnterVill) ||
                             Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f), .2f, EnterCast))
@@ -72,11 +77,12 @@ public class Movement : MonoBehaviour
                         {
                             Debug.Log("I am Groot!");
                         }
+                        this.GetComponent<Units>().move--;
                         movePoint.position += new Vector3(0f, Input.GetAxisRaw("Vertical"), 0f);
                         Debug.Log("Movin out!");
                     }
                 }
             }
-        } 
+        }
     }
 }

@@ -10,9 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6552311559946210851}
   - component: {fileID: 5083418982663440039}
-  - component: {fileID: 8313924669134119313}
+  - component: {fileID: -233392266577756702}
   - component: {fileID: 2968152273474173448}
-  m_Layer: 0
+  - component: {fileID: -2962198469928655943}
+  - component: {fileID: -3483053416098193571}
+  m_Layer: 3
   m_Name: Infantry_Prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8329040339496172852}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -45,6 +47,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 117b24cb8d3a5e345a73d5eb9ac62575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  active: 0
+  move: 0
+  playerTag: 1
   movePoint: {fileID: 0}
   EnterForest:
     serializedVersion: 2
@@ -52,7 +57,7 @@ MonoBehaviour:
   EnterHill:
     serializedVersion: 2
     m_Bits: 128
---- !u!114 &8313924669134119313
+--- !u!114 &-233392266577756702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -81,6 +86,9 @@ MonoBehaviour:
   EnterHill:
     serializedVersion: 2
     m_Bits: 128
+  MeetUnit:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!212 &2968152273474173448
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -120,7 +128,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: -4400872024201065886, guid: bf561afc7b6fff640bbe3d169adca021, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -132,3 +140,41 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &-2962198469928655943
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8329040339496172852}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 0.35, y: 0.35}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!114 &-3483053416098193571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8329040339496172852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e79553e7d8423e4fbd708db4b46f536, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
