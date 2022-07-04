@@ -136,16 +136,16 @@ public class Game : MonoBehaviour
     //Function for the Round button
     public void ClickTest()
     {
-        if (turn)
+        if (transform.parent.parent.GetComponent<Game>().turn)
         {
             //Player1 ist am zug
-            Player1.GetComponent<Player>().ResetUnits();
+            transform.parent.parent.GetChild(0).GetComponent<Player>().ResetUnits();
         }
         else
         {
-            Player2.GetComponent<Player>().ResetUnits();
+            transform.parent.parent.GetChild(1).GetComponent<Player>().ResetUnits();
         }
-        turn = !turn;
+        transform.parent.parent.GetComponent<Game>().turn = !transform.parent.parent.GetComponent<Game>().turn;
         Debug.Log("Button geklickt");
         Debug.Log(turn);
     }

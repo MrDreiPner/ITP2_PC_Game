@@ -1322,6 +1322,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2449379797979811506, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1854904222951193852, guid: 2897784c73183c74ea31101282f54f21, type: 3}
+    - target: {fileID: 2449379797979811506, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449379797979811506, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5348560140484130277, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
       propertyPath: m_Name
       value: Village_Prefab
@@ -1731,6 +1743,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 1640240325970059022, guid: b8d874d995c703e49a8bb4dedb103438, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 6603817614808479771, guid: 996741f46b02dfc4692ecb51007f6814, type: 3}
+    - target: {fileID: 1640240325970059022, guid: b8d874d995c703e49a8bb4dedb103438, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5236432282710185830, guid: b8d874d995c703e49a8bb4dedb103438, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2542,8 +2562,8 @@ RectTransform:
   m_Children:
   - {fileID: 2095980156}
   - {fileID: 1045802197}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_Father: {fileID: 1497208859}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2653,7 +2673,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 325357298}
-  - component: {fileID: 325357299}
   - component: {fileID: 324540301}
   - component: {fileID: 328798604}
   - component: {fileID: 325357301}
@@ -2683,18 +2702,6 @@ RectTransform:
   m_AnchoredPosition: {x: 38.95, y: -21.24}
   m_SizeDelta: {x: 77.9, y: 11.18}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &325357299
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325357297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!222 &325357300
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5204,6 +5211,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2449379797979811506, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5875400546730859109, guid: f641fad33bbc15941ab31f3eb6f648b5, type: 3}
+    - target: {fileID: 2449379797979811506, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5348560140484130277, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
       propertyPath: m_Name
       value: Village_Prefab
@@ -5266,6 +5281,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2449379797979811506, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1854904222951193852, guid: 2897784c73183c74ea31101282f54f21, type: 3}
+    - target: {fileID: 2449379797979811506, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449379797979811506, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5348560140484130277, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
       propertyPath: m_Name
       value: Village_Prefab
@@ -6867,6 +6894,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 1640240325970059022, guid: b8d874d995c703e49a8bb4dedb103438, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3688941460185079321, guid: 4bc042ef748a2f84dbfb5f85c251ac41, type: 3}
+    - target: {fileID: 1640240325970059022, guid: b8d874d995c703e49a8bb4dedb103438, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5236432282710185830, guid: b8d874d995c703e49a8bb4dedb103438, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -10899,7 +10934,7 @@ RectTransform:
   m_Children:
   - {fileID: 1021736719}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -11624,8 +11659,9 @@ Transform:
   m_Children:
   - {fileID: 59039767}
   - {fileID: 1211273705}
+  - {fileID: 323354156}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1497208860
 MonoBehaviour:
@@ -11965,18 +12001,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
   m_PrefabInstance: {fileID: 1533458415}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1542057763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1545509252}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7b686ebc41654dc448b06f33e28985cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1545509252
 GameObject:
   m_ObjectHideFlags: 0
@@ -11992,7 +12016,6 @@ GameObject:
   - component: {fileID: 1545509256}
   - component: {fileID: 1545509255}
   - component: {fileID: 1545509254}
-  - component: {fileID: 1542057763}
   m_Layer: 5
   m_Name: Tooltip
   m_TagString: Untagged
@@ -12310,6 +12333,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2449379797979811506, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -5875400546730859109, guid: f641fad33bbc15941ab31f3eb6f648b5, type: 3}
+    - target: {fileID: 2449379797979811506, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5348560140484130277, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
       propertyPath: m_Name
       value: Village_Prefab
@@ -15680,7 +15711,7 @@ RectTransform:
   m_Children:
   - {fileID: 1545509253}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

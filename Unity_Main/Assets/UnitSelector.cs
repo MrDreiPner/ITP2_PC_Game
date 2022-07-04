@@ -31,7 +31,7 @@ public class UnitSelector : MonoBehaviour
                 {
                     prevUnit.GetComponent<Units>().active = false;
                 }
-                if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Unit"))
+                if (hit.collider.gameObject.layer == LayerMask.NameToLayer("Unit") && hit.collider.gameObject.GetComponent<Units>().playerTag == transform.parent.parent.GetComponent<Game>().turn)
                 {
                     hit.collider.gameObject.GetComponent<Units>().active = true;
                     prevUnit = hit.collider.gameObject;

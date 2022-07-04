@@ -110,18 +110,19 @@ public class Player : MonoBehaviour
             {
                 if (unit.GetComponent<Units>().Type == Units.Types.infantry)
                 {
-                    unit.GetComponent<Units>().Move = 4;
+                    unit.GetComponent<Units>().move = 4;
                 }
                 else if (unit.GetComponent<Units>().Type == Units.Types.cavalry)
                 {
-                    unit.GetComponent<Units>().Move = 6;
+                    unit.GetComponent<Units>().move = 6;
                 }
                 else if (unit.GetComponent<Units>().Type == Units.Types.range)
                 {
-                    unit.GetComponent<Units>().Move = 4;
+                    unit.GetComponent<Units>().move = 4;
                 }
             }
         }
+        Debug.Log("Refresh gets called");
     }
     public int Money
     {
