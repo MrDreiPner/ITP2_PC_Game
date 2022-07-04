@@ -258,6 +258,13 @@ MonoBehaviour:
   content: 'Slower Movement
 
     Harder to hit'
+  m_GameObject: {fileID: 27532155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!4 &36531169 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -588,6 +595,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9944ba5c81cbb1944938f7da37729a14, type: 3}
+--- !u!1 &57720354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 850912341}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &57720356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57720354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &59039765
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,6 +785,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &70780885 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 76781748}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &70780887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70780885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &73582745 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -891,6 +934,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -1313,6 +1360,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &136239290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 529851890}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &136239292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 136239290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &150647027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 550861578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &150647029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 150647027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &155414140
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1488,6 +1571,49 @@ MonoBehaviour:
   content: 'Slower Movement
 
     Harder to hit'
+  m_GameObject: {fileID: 190005499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
+--- !u!1 &198210665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8223060845941284903, guid: d3354f4d0a37c1942a21a37de3a6f243, type: 3}
+  m_PrefabInstance: {fileID: 1732682008}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &198210667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198210665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: See more and shoot farther on this nice hills
+--- !u!1 &199122774 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 2012181514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &199122776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 199122774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &212306202
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1800,6 +1926,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &240014938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5348560140484130277, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+  m_PrefabInstance: {fileID: 172910506}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &240014940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240014938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Tiny Village with little gold to loot
 --- !u!1001 &241176695
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2178,6 +2322,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 1577984102}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &283777956 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 421075409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &283777958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283777956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &284897464 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 212306202}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &284897466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 284897464}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &294639026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 742940452}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &294639028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294639026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &303041938 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -2458,6 +2656,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &311165156 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1577984102}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &311165158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311165156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &315870674 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -2664,6 +2880,12 @@ RectTransform:
   m_SizeDelta: {x: 77.9, y: 11.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &325357299
+--- !u!1 &324540300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1368663969}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &324540301
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2754,12 +2976,33 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &325357300
 CanvasRenderer:
+  m_GameObject: {fileID: 324540300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
+--- !u!1 &328798602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 416279848}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &328798604
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325357297}
   m_CullTransparentMesh: 1
+  m_GameObject: {fileID: 328798602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &334490412 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -2914,6 +3157,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4c69f437faf3704a906012f21ecce35, type: 3}
+--- !u!1 &345804012 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 476955399}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &345804014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345804012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &353876029 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1881660315}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &353876031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353876029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &355649088
 GameObject:
   m_ObjectHideFlags: 0
@@ -3023,6 +3302,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &356466295 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1599306171}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &356466297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 356466295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &363381018 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1096134130}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &363381020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363381018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &373537275
 GameObject:
   m_ObjectHideFlags: 0
@@ -3213,6 +3528,12 @@ GameObject:
   m_PrefabInstance: {fileID: 1578754669}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &385001035
+--- !u!1 &383539199 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 610587617}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &383539200
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3228,11 +3549,54 @@ MonoBehaviour:
   content: 'Slower Movement
 
     Harder to hit'
+  m_GameObject: {fileID: 383539199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!4 &385247889 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 277902844}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &391801164 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1207696635}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &391801166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391801164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &393946496 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1790382207}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &393946498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393946496}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &395550062 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -3362,6 +3726,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5236432282710185830, guid: b8d874d995c703e49a8bb4dedb103438, type: 3}
   m_PrefabInstance: {fileID: 1019074457}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &414927084 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 76566323}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &414927086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414927084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &416279848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3658,6 +4040,12 @@ GameObject:
   m_PrefabInstance: {fileID: 84168661}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &439857826
+--- !u!1 &437336051 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8578655955810377375, guid: b8d874d995c703e49a8bb4dedb103438, type: 3}
+  m_PrefabInstance: {fileID: 1019074457}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &437336053
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3673,6 +4061,13 @@ MonoBehaviour:
   content: 'Slower Movement
 
     Harder to hit'
+  m_GameObject: {fileID: 437336051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: This is your home. Protect it!
 --- !u!1001 &440005706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3680,6 +4075,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -3798,6 +4197,12 @@ GameObject:
   m_PrefabInstance: {fileID: 481580920}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &457877095
+--- !u!1 &460483718 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 215477915}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &460483720
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3813,6 +4218,13 @@ MonoBehaviour:
   content: 'Slower Movement
 
     Harder to hit'
+  m_GameObject: {fileID: 460483718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &464943403 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -3939,6 +4351,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -4247,6 +4663,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 1286812514}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &507494717 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1697755041}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &507494719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 507494717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &510962081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4455,6 +4889,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6587462033460378223, guid: 6001fdad5122c2040b435593f690a194, type: 3}
   m_PrefabInstance: {fileID: 1713298528}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &540900293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 679939609}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &540900295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540900293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &541876172
 GameObject:
   m_ObjectHideFlags: 0
@@ -4779,11 +5231,47 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &542203501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1923518679}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &542203502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542203501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!4 &547188875 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 1087541754}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &547421076 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1371853789}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &547421078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547421076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &550861578
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4908,6 +5396,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &598992382 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 867813061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &598992384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598992382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &601098430 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5236432282710185830, guid: b8d874d995c703e49a8bb4dedb103438, type: 3}
@@ -5029,6 +5535,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -5110,6 +5620,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6146260202846727903, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
   m_PrefabInstance: {fileID: 671500214}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &627064771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3981527458777237709, guid: 982010b8303849d4e88c9d373d4a3f94, type: 3}
+  m_PrefabInstance: {fileID: 339484807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &627064773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627064771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Deep Mine with much gold to loot
 --- !u!1 &629225067
 GameObject:
   m_ObjectHideFlags: 0
@@ -5219,6 +5747,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &632780430 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1844967803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &632780432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632780430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &640198191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 2069748784}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &640198193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 640198191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &641879603
 GameObject:
   m_ObjectHideFlags: 0
@@ -5317,11 +5881,47 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 983957332}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &663872670 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1063522010}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &663872671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663872670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!4 &670004573 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 823292661}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &671020485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 2021784515}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &671020487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 671020485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &671500214
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5462,6 +6062,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+--- !u!1 &679213720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1959558484}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &679213721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 679213720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!1001 &679939609
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5721,6 +6339,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9944ba5c81cbb1944938f7da37729a14, type: 3}
+--- !u!1 &695175336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1219244427}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &695175338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 695175336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &702665032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -5731,6 +6367,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 1096134130}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &703925303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1658111472}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &703925304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703925303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!4 &708558617 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -5741,6 +6395,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 305884093}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &717402228 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 136103680}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &717402230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717402228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &725891225 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -5803,6 +6475,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &745590827 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 481580920}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &745590828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 745590827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!1001 &752789249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5810,6 +6500,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -5865,11 +6559,47 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
   m_PrefabInstance: {fileID: 752789249}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &754847227 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1533458415}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &754847228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 754847227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!4 &758724441 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 1815989975}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &758952809 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 155414140}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &758952811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758952809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &765037018
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6098,11 +6828,47 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 791388404}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &808500723 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1606326946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &808500725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808500723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &816808076 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 876541835}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &822505509 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1803398822}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &822505511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 822505509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &823292661
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6160,6 +6926,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &825147008 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1521520837}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &825147010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825147008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &827812391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1530819865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &827812393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827812391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &845726514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6813,6 +7615,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9c649630c73fe24e854841aa2035564, type: 3}
+--- !u!1 &916628044 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1716438127}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &916628046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916628044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &918424409
 GameObject:
   m_ObjectHideFlags: 0
@@ -6858,16 +7678,88 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &922252803 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1128240702}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &922252805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 922252803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &927076003 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1819922442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &927076004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927076003}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!4 &927177597 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6146260202846727903, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
   m_PrefabInstance: {fileID: 1577788757}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &931193880 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1188999869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &931193882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931193880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &940326099 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 2021784515}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &941049082 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1578543273}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &941049083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941049082}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!4 &944137713 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -6935,6 +7827,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &995638667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1883985188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &995638668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 995638667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!1001 &997883922
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7002,6 +7912,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 1825270275}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1006430624 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1286812514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1006430626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006430624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1018042007 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 876541835}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1018042009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018042007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1019074457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7116,6 +8062,132 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &1021026013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1795254543}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1021026015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021026013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1021736718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1021736719}
+  - component: {fileID: 1021736722}
+  - component: {fileID: 1021736721}
+  - component: {fileID: 1021736720}
+  m_Layer: 5
+  m_Name: Tooltipbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1021736719
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021736718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1975911694}
+  m_Father: {fileID: 1345326362}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 960, y: 469.5}
+  m_SizeDelta: {x: 100, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1021736720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021736718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765e1ecc41d20724dbca5f93483d503e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textcomponent: {fileID: 1975911695}
+--- !u!114 &1021736721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021736718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 0.87058824}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1021736722
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1021736718}
+  m_CullTransparentMesh: 0
+--- !u!1 &1032778535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 12252184}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1032778537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032778535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &1033464580
 GameObject:
   m_ObjectHideFlags: 0
@@ -9179,6 +10251,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -9234,11 +10310,47 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
   m_PrefabInstance: {fileID: 1063522010}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1063594080 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 61851859}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1063594082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063594080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &1065329542 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 529851890}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1068601618 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 845726514}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1068601620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068601618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1087541754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9306,6 +10418,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 382906757}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1095754391 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 2109654031}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1095754393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095754391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1096117667 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1825270275}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1096117669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096117667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1096134130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9435,6 +10583,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7527545148404371445, guid: 9944ba5c81cbb1944938f7da37729a14, type: 3}
   m_PrefabInstance: {fileID: 50885769}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1120428978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 70011302}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1120428980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120428978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &1123474541 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -9730,6 +10896,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 845726514}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1157160693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 305884093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1157160695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157160693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1179318234
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9737,6 +10921,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -9792,6 +10980,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
   m_PrefabInstance: {fileID: 1179318234}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1180102387 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1578754669}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1180102388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180102387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!1001 &1181013926
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9916,6 +11122,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 136103680}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1199680813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 997883922}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1199680815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199680813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1207696635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10088,6 +11312,42 @@ Transform:
   m_Father: {fileID: 1497208859}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1212613976 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 752789249}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1212613977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1212613976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
+--- !u!1 &1215377756 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 7355554}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1215377758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215377756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1219244427
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10145,6 +11405,78 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &1225519714 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 442305619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1225519716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1225519714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1231156514 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1771326707}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1231156516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231156514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1232308049 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 277902844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1232308051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1232308049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1233450268 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1815989975}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1233450270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233450268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &1237367542 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -10188,6 +11520,12 @@ RectTransform:
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1248374282
+--- !u!1 &1239558300 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 765037018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1239558302
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10223,12 +11561,33 @@ MonoBehaviour:
   m_Text: Buy Unit
 --- !u!222 &1248374283
 CanvasRenderer:
+  m_GameObject: {fileID: 1239558300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1248180072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1314463311}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1248180074
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1248374280}
   m_CullTransparentMesh: 1
+  m_GameObject: {fileID: 1248180072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &1253568298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -10244,6 +11603,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 1771326707}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1262519870 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1460906983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1262519872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1262519870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1265260774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10251,6 +11628,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -10306,6 +11687,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
   m_PrefabInstance: {fileID: 1265260774}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1275822307 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1947661594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1275822309
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275822307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &1281239990
 GameObject:
   m_ObjectHideFlags: 0
@@ -10523,6 +11922,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5615219961543347861, guid: aa07178332d5b444ab7ad2aaae3c8abe, type: 3}
   m_PrefabInstance: {fileID: 1868477081}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1298167693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1617624143}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1298167695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298167693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &1302575070 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -10704,6 +12121,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &1318711614 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1132981293}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1318711616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318711614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &1320327387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -10720,6 +12155,12 @@ GameObject:
   m_PrefabInstance: {fileID: 1919040553}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1328831874
+--- !u!1 &1330365977 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 2142816868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1330365979
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10735,6 +12176,13 @@ MonoBehaviour:
   content: 'Slower Movement
 
     Harder to hit'
+  m_GameObject: {fileID: 1330365977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &1332377706
 GameObject:
   m_ObjectHideFlags: 0
@@ -10849,11 +12297,147 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 1852797600}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1345326358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1345326362}
+  - component: {fileID: 1345326361}
+  - component: {fileID: 1345326360}
+  - component: {fileID: 1345326359}
+  m_Layer: 5
+  m_Name: Tooltip Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1345326359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345326358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1345326360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345326358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1345326361
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345326358}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 32767
+  m_TargetDisplay: 0
+--- !u!224 &1345326362
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345326358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 1021736719}
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1348419410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 2099085400}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1348419412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1348419410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &1350155111 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 2069748784}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1366407570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 318235717}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1366407572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1366407570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1368663969
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10861,6 +12445,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 23
@@ -11013,6 +12601,12 @@ GameObject:
   m_PrefabInstance: {fileID: 1923518679}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1383102697
+--- !u!1 &1385160895 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1136739807}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1385160897
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11028,6 +12622,31 @@ MonoBehaviour:
   content: 'Slower Movement
 
     Harder to hit'
+  m_GameObject: {fileID: 1385160895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1393269606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 89724846}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1393269608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1393269606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &1396668412 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -11121,6 +12740,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1412391558 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 510962081}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1412391560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412391558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1423639061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11178,6 +12815,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &1425990466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1919040553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1425990467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1425990466}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!1001 &1429300781
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11240,6 +12895,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7906493190731629909, guid: d3354f4d0a37c1942a21a37de3a6f243, type: 3}
   m_PrefabInstance: {fileID: 1429300781}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1429838077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 474609854}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1429838079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429838077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &1437925539
 GameObject:
   m_ObjectHideFlags: 0
@@ -11355,6 +13028,12 @@ GameObject:
   m_PrefabInstance: {fileID: 1063522010}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1438990560
+--- !u!1 &1438442259 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1777499302}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1438442261
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -11463,6 +13142,67 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6001fdad5122c2040b435593f690a194, type: 3}
+  m_GameObject: {fileID: 1438442259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1440022987 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 39157610}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1440022989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1440022987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1441671165 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1503778835}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1441671167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441671165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1445105168 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8223060845941284903, guid: d3354f4d0a37c1942a21a37de3a6f243, type: 3}
+  m_PrefabInstance: {fileID: 1429300781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1445105170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445105168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: See more and shoot farther on this nice hills
 --- !u!4 &1448587316 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -11535,6 +13275,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &1462699664 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1035768167}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1462699666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462699664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1467218397 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5348560140484130277, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+  m_PrefabInstance: {fileID: 1577788757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1467218399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1467218397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Tiny Village with little gold to loot
 --- !u!4 &1469544999 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -11683,6 +13459,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &1505694176 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 440005706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1505694177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505694176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
+--- !u!1 &1505720699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1061849675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1505720701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1505720699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &1506347117 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -11693,6 +13505,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5615219961543347861, guid: aa07178332d5b444ab7ad2aaae3c8abe, type: 3}
   m_PrefabInstance: {fileID: 384037300}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1507161441 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1208096870}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1507161443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1507161441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &1512999366 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -11879,6 +13709,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &1531990336 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 535793069}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1531990338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1531990336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1533458415
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11886,6 +13734,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -11947,6 +13799,12 @@ GameObject:
   m_PrefabInstance: {fileID: 1638775211}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1535512201
+--- !u!1 &1537098681 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 983957332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1537098683
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12006,6 +13864,19 @@ RectTransform:
   m_SizeDelta: {x: 121.65, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1545509254
+  m_GameObject: {fileID: 1537098681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1542057761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1036811265}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1542057763
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -12119,6 +13990,13 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545509252}
   m_CullTransparentMesh: 1
+  m_GameObject: {fileID: 1542057761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1550154828
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12432,6 +14310,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -12494,6 +14376,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -12627,11 +14513,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &1589505924 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1181013926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1589505926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589505924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &1591866505 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 2109654031}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1594182042 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 823292661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1594182044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1594182042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1599306171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12808,6 +14730,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7906493190731629909, guid: d3354f4d0a37c1942a21a37de3a6f243, type: 3}
   m_PrefabInstance: {fileID: 1607390802}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1611219465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8223060845941284903, guid: d3354f4d0a37c1942a21a37de3a6f243, type: 3}
+  m_PrefabInstance: {fileID: 1607390802}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1611219467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611219465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: See more and shoot farther on this nice hills
 --- !u!1001 &1617624143
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12870,6 +14810,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 416279848}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1626744270 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 488273937}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1626744272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626744270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1638775211
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12877,6 +14835,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -12996,6 +14958,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -13051,6 +15017,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
   m_PrefabInstance: {fileID: 1658111472}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1666579750 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1756227471}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1666579752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666579750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &1683828843
 GameObject:
   m_ObjectHideFlags: 0
@@ -13160,6 +15144,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1694435780 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1423639061}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1694435782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694435780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1697755041
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13217,6 +15219,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &1709544747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5348560140484130277, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+  m_PrefabInstance: {fileID: 671500214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1709544749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709544747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Tiny Village with little gold to loot
 --- !u!4 &1711022771 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -13372,6 +15392,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &1718070293 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1020360125}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1718070295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1718070293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &1728910629
 GameObject:
   m_ObjectHideFlags: 0
@@ -13642,6 +15680,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &1768388519 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1550154828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1768388521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768388519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &1771326707
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14105,6 +16161,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -14217,6 +16277,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &1828741836 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 585178619}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1828741838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828741836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1836821188 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 84168661}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1836821189
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836821188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!4 &1841115698 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -14402,6 +16498,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa07178332d5b444ab7ad2aaae3c8abe, type: 3}
+--- !u!1 &1857625662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1108890480}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1857625664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857625662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1863386974 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1852797600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1863386976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1863386974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &1868548756 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
@@ -14471,6 +16603,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -14635,6 +16771,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1884914431 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1087541754}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1884914433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884914431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1 &1885183481
 GameObject:
   m_ObjectHideFlags: 0
@@ -14818,6 +16972,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -14885,6 +17043,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -15143,6 +17305,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -15198,6 +17364,194 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
   m_PrefabInstance: {fileID: 1959558484}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1966582355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 241814324}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1966582357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1966582355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &1975911693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1975911694}
+  - component: {fileID: 1975911696}
+  - component: {fileID: 1975911695}
+  m_Layer: 5
+  m_Name: TooltipText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1975911694
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975911693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1021736719}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -10, y: -10}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1975911695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975911693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 19.65
+  m_fontSizeBase: 10
+  m_fontWeight: 400
+  m_enableAutoSizing: 1
+  m_fontSizeMin: 8
+  m_fontSizeMax: 20
+  m_fontStyle: 1
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1975911696
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975911693}
+  m_CullTransparentMesh: 1
+--- !u!1 &1980882978 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1638775211}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1980882979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1980882978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
+--- !u!1 &2002473731 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8223060845941284903, guid: d3354f4d0a37c1942a21a37de3a6f243, type: 3}
+  m_PrefabInstance: {fileID: 660991795}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2002473733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2002473731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: See more and shoot farther on this nice hills
 --- !u!1001 &2012181514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15312,6 +17666,42 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &2023481601 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 864151706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2023481603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023481601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &2035399180 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 382906757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2035399182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2035399180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &2052011851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15686,6 +18076,42 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 474609854}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2081534882 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1657928093}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2081534884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2081534882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &2095147069 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5910032097833236115, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+  m_PrefabInstance: {fileID: 1265260774}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2095147070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095147069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Hide yourself and move slower in this deep forest
 --- !u!1 &2095980155
 GameObject:
   m_ObjectHideFlags: 0
@@ -15840,6 +18266,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1033464581}
     m_Modifications:
+    - target: {fileID: 2754660335348142622, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5248454846435088960, guid: b038b3cb9d0f4714ea1f2818ba7a6059, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -15952,6 +18382,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+--- !u!1 &2108363350 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1518129112}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2108363352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108363350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &2109654031
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16014,11 +18462,101 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6146260202846727903, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
   m_PrefabInstance: {fileID: 172910506}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2112177352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 1586486110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2112177354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2112177352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
+--- !u!1 &2120063358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 433129052}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2120063360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2120063358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!4 &2133448301 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1187571209090781213, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
   m_PrefabInstance: {fileID: 476955399}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2134476984 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5348560140484130277, guid: 7fcec81200bcfdd469a9ad3289194b4c, type: 3}
+  m_PrefabInstance: {fileID: 679126850}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2134476986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134476984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Tiny Village with little gold to loot
+--- !u!1 &2135989013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8578655955810377375, guid: b8d874d995c703e49a8bb4dedb103438, type: 3}
+  m_PrefabInstance: {fileID: 241176695}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2135989015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135989013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: This is your home. Protect it!
+--- !u!1 &2139717502 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4934204032083845740, guid: 7e64baef39d08b741a6f00d4d5c86b55, type: 3}
+  m_PrefabInstance: {fileID: 2052011851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2139717504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139717502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You Shall Not Pass!!!!
 --- !u!1001 &2142816868
 PrefabInstance:
   m_ObjectHideFlags: 0
