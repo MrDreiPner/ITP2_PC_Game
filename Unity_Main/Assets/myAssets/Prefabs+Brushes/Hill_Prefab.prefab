@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7906493190731629909}
   - component: {fileID: 5451785622842348817}
+  - component: {fileID: -5559546678061331380}
+  - component: {fileID: -2362925514381435970}
   m_Layer: 7
   m_Name: Hill_Prefab
   m_TagString: Untagged
@@ -57,3 +59,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-5559546678061331380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8223060845941284903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: So hilly
+--- !u!222 &-2362925514381435970
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8223060845941284903}
+  m_CullTransparentMesh: 1

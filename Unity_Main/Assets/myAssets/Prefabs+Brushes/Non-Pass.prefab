@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1187571209090781213}
   - component: {fileID: 3345229825552318960}
+  - component: {fileID: -5524371180908357545}
+  - component: {fileID: 583248314507470468}
   m_Layer: 6
   m_Name: Non-Pass
   m_TagString: Untagged
@@ -57,3 +59,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-5524371180908357545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4934204032083845740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: You shall not pass!
+--- !u!222 &583248314507470468
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4934204032083845740}
+  m_CullTransparentMesh: 1

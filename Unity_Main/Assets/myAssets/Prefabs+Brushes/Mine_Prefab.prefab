@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7612685643231613975}
   - component: {fileID: 1775657033155295053}
+  - component: {fileID: -2839049558918473061}
+  - component: {fileID: -3831774453565301608}
   m_Layer: 11
   m_Name: Mine_Prefab
   m_TagString: Untagged
@@ -57,3 +59,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-2839049558918473061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3981527458777237709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: 
+--- !u!222 &-3831774453565301608
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3981527458777237709}
+  m_CullTransparentMesh: 1
