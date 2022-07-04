@@ -27,8 +27,24 @@ public class Player : MonoBehaviour
     ~Player(){
         print("player was deleted");
     }
-//public Methods
-
+    //public Methods
+    public void EnemyCastleOccupied(Vector2 Castle)
+    {
+        Vector2 raycastPos = Castle;
+        RaycastHit2D hit = Physics2D.Raycast(raycastPos, Vector2.zero, Mathf.Infinity, (1 << 3));
+        if (hit.collider != null)
+        {
+            for(int i = 0; i< transform.childCount; i++)
+            {
+                if (transform.GetChild(i).name == "MovePoint") break;
+                if (transform.GetChild(i).position.x == Castle.x && transform.GetChild(i).position.y == Castle.y)
+                {
+                    ownEnemyCastle = true;
+                    break;
+                }
+            }
+        }
+    }
     public void AddUnit(int choice)
     {
         GameObject newObject;
@@ -67,8 +83,10 @@ public class Player : MonoBehaviour
     //this function should reset the values of each unit a player has when he/she ends his/her turn
     public void ResetUnits()
     {
-        for (int i = 0; i < (transform.childCount / 2); i++)
+       
+        for (int i = 0; i < (transform.childCount); i++)
         {
+            if (transform.GetChild(i).name == "MovePoint") break;
             if (transform.GetChild(i).GetComponent<Units>().type == Units.Types.infantry)
             {
                 transform.GetChild(i).GetComponent<Units>().move = 4;
@@ -103,7 +121,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     
 }

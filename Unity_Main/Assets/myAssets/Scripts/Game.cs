@@ -20,6 +20,7 @@ public class Game : MonoBehaviour
         print("Game deleted");
     }
 //public Methods 
+    
     public bool CheckWin(){
         if (turn)
         {
@@ -45,31 +46,6 @@ public class Game : MonoBehaviour
     private GameObject Player1;
     private GameObject Player2;
     //private Grid Map;
-    
-    /*public void PutUnitsInList()
-    {
-        GameObject Infantry1 = GameObject.Find("Infantry1");
-        GameObject Infantry2 = GameObject.Find("Infantry2");
-        GameObject Infantry3 = GameObject.Find("Infantry3");
-        GameObject Archer1 = GameObject.Find("Archer1");
-        GameObject Cavalry1 = GameObject.Find("Cavalry1");
-        Player1.GetComponent<Player>().army.Add(Infantry1);
-        Player1.GetComponent<Player>().army.Add(Infantry2);
-        Player1.GetComponent<Player>().army.Add(Infantry3);
-        Player1.GetComponent<Player>().army.Add(Archer1);
-        Player1.GetComponent<Player>().army.Add(Cavalry1);
-
-        Infantry1 = GameObject.Find("Infantry1P2");
-        Infantry2 = GameObject.Find("Infantry2P2");
-        Infantry3 = GameObject.Find("Infantry3P2");
-        Archer1 = GameObject.Find("Archer1P2");
-        Cavalry1 = GameObject.Find("Cavalry1P2");
-        Player2.GetComponent<Player>().army.Add(Infantry1);
-        Player2.GetComponent<Player>().army.Add(Infantry2);
-        Player2.GetComponent<Player>().army.Add(Infantry3);
-        Player2.GetComponent<Player>().army.Add(Archer1);
-        Player2.GetComponent<Player>().army.Add(Cavalry1);
-    }*/
 
     // Start is called before the first frame update
     void Start()
@@ -83,6 +59,8 @@ public class Game : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (turn) Player1.GetComponent<Player>().EnemyCastleOccupied(new Vector2(4.5f, 2.5f));
+        else Player2.GetComponent<Player>().EnemyCastleOccupied(new Vector2(-5.5f, -2.5f));
         bool win = CheckWin();
         if (win) Destroy(this);
     }
