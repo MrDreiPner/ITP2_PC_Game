@@ -98,7 +98,12 @@ public class Infantry : Units
 
         if (damage > 0)
             target.HP = target.HP - (int)Mathf.Round(damage);
-
+        
+        //checks if the object is still alive 
+        if (target.GetComponent<Units>().HP <= 0)
+        {
+            Destroy(target.gameObject);
+        }
         //ausgabe am bildschirm noch implementieren
 
         //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....

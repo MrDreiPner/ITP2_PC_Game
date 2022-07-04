@@ -519,7 +519,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7032916016825989769, guid: 9944ba5c81cbb1944938f7da37729a14, type: 3}
       propertyPath: m_Name
-      value: Archer1
+      value: Archer1P2
       objectReference: {fileID: 0}
     - target: {fileID: 7527545148404371445, guid: 9944ba5c81cbb1944938f7da37729a14, type: 3}
       propertyPath: m_RootOrder
@@ -604,6 +604,10 @@ MonoBehaviour:
   cavalryPrefab2: {fileID: 6286567909018702639, guid: b4c69f437faf3704a906012f21ecce35, type: 3}
   archerPrefab2: {fileID: 7032916016825989769, guid: 9944ba5c81cbb1944938f7da37729a14, type: 3}
   playerTag: 1
+  ownCastle: 0
+  ownMine: 0
+  ownVillage: 0
+  army: []
   money: 0
 --- !u!4 &59039767
 Transform:
@@ -1923,7 +1927,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7833055898784557033, guid: 6001fdad5122c2040b435593f690a194, type: 3}
       propertyPath: m_Name
-      value: Infantry1
+      value: Infantry1P2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6001fdad5122c2040b435593f690a194, type: 3}
@@ -2874,7 +2878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6286567909018702639, guid: b4c69f437faf3704a906012f21ecce35, type: 3}
       propertyPath: m_Name
-      value: Cavalry1
+      value: Cavalry1P2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4c69f437faf3704a906012f21ecce35, type: 3}
@@ -5523,7 +5527,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7032916016825989769, guid: 9944ba5c81cbb1944938f7da37729a14, type: 3}
       propertyPath: m_Name
-      value: Archer2
+      value: Archer2P2
       objectReference: {fileID: 0}
     - target: {fileID: 7527545148404371445, guid: 9944ba5c81cbb1944938f7da37729a14, type: 3}
       propertyPath: m_RootOrder
@@ -9048,6 +9052,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75440854dad329745bf2edf71d368acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn: 1
   BuyUnitMenu: {fileID: 1177450182905397389, guid: 7b4ab7ad57795f144ae3a39a8e75ae07, type: 3}
 --- !u!4 &1049034986 stripped
 Transform:
@@ -10019,6 +10024,10 @@ MonoBehaviour:
   cavalryPrefab2: {fileID: 6286567909018702639, guid: b4c69f437faf3704a906012f21ecce35, type: 3}
   archerPrefab2: {fileID: 7032916016825989769, guid: 9944ba5c81cbb1944938f7da37729a14, type: 3}
   playerTag: 0
+  ownCastle: 0
+  ownMine: 0
+  ownVillage: 0
+  army: []
   money: 0
 --- !u!4 &1211273705
 Transform:
@@ -11469,7 +11478,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7833055898784557033, guid: 6001fdad5122c2040b435593f690a194, type: 3}
       propertyPath: m_Name
-      value: Infantry3
+      value: Infantry3P2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6001fdad5122c2040b435593f690a194, type: 3}
@@ -11630,6 +11639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75440854dad329745bf2edf71d368acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn: 1
   BuyUnitMenu: {fileID: 1177450182905397389, guid: 7b4ab7ad57795f144ae3a39a8e75ae07, type: 3}
 --- !u!4 &1499008077 stripped
 Transform:
@@ -13288,7 +13298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7833055898784557033, guid: 6001fdad5122c2040b435593f690a194, type: 3}
       propertyPath: m_Name
-      value: Infantry2
+      value: Infantry2P2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6001fdad5122c2040b435593f690a194, type: 3}
@@ -15900,6 +15910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75440854dad329745bf2edf71d368acc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  turn: 1
   BuyUnitMenu: {fileID: 0}
 --- !u!1001 &2095994125
 PrefabInstance:

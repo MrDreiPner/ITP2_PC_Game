@@ -13,7 +13,9 @@ public class Player : MonoBehaviour
     public GameObject cavalryPrefab2;
     public GameObject archerPrefab2;
     public bool playerTag;
-
+    public bool ownCastle;
+    public bool ownMine;
+    public int ownVillage;
     //Konstruktor
     public Player(bool playerTag)
     {
@@ -103,27 +105,45 @@ public class Player : MonoBehaviour
         //army.Count return the amount of elements in the list
         if(army.Count != 0)
         {
+            //geld dazu zählen fehlt noch
             foreach(GameObject unit in army)
             {
-                
+                if (unit.GetComponent<Units>().Type == Units.Types.infantry)
+                {
+                    unit.GetComponent<Units>().Move = 4;
+                }
+                else if (unit.GetComponent<Units>().Type == Units.Types.cavalry)
+                {
+                    unit.GetComponent<Units>().Move = 6;
+                }
+                else if (unit.GetComponent<Units>().Type == Units.Types.range)
+                {
+                    unit.GetComponent<Units>().Move = 4;
+                }
             }
         }
-        
     }
     public int Money
     {
         get { return money; }
         set { money = value; }
     }
-
+    public void PrintArmy()
+    {
+        foreach (GameObject unit in army)
+        {
+            print(unit.GetComponent<Units>().Type);
+        }
+    }
     //Private Variables
-    private List <GameObject> army;
+    public List <GameObject> army;
     public int money;
 
     // Start is called before the first frame update
     void Start()
     {
         PlaceUnit();
+        PrintArmy();
     }
 
     // Update is called once per frame
