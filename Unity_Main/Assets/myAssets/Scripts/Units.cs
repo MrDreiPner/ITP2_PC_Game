@@ -5,6 +5,7 @@ using UnityEngine;
 //evtl doch interface aber vermutlich abstrakte classe
 public abstract class Units : MonoBehaviour
 {
+    public Transform movePoint;
     public Units(){
         this.active = false;
         print("unit created");
@@ -18,6 +19,7 @@ public abstract class Units : MonoBehaviour
     //falls wait() für alle gleich ist hier implementieren
     public abstract void Wait();
 
+    public bool hasAttacked;
     public bool active;
     protected int cost;
     protected int hp;
@@ -29,7 +31,7 @@ public abstract class Units : MonoBehaviour
     public bool playerTag;
     protected float x;
     protected float y;
-    protected Types type;
+    public Types type;
     protected Types weakness;
 
     public Types Type

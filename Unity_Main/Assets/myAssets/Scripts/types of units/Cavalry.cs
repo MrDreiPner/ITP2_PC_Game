@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Cavalry : Units
 {
-    public Transform movePoint;
 
     public LayerMask EnterForest = (1 << 10);
     public LayerMask EnterHill = (1 << 7);
@@ -16,6 +15,7 @@ public class Cavalry : Units
     void Start()
     {
         active = false;
+        hasAttacked = false;
         cost = 10;
         hp = 45;
         atk = 20;
@@ -101,7 +101,7 @@ public class Cavalry : Units
         //ausgabe am bildschirm noch implementieren
 
         //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
-
+        Debug.Log("Combat was triggered");
     }
     public override void Moving() { }
     //falls wait() für alle gleich ist hier implementieren

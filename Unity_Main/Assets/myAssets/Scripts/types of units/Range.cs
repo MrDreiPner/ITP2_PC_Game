@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Range : Units
 {
-    public Transform movePoint;
 
     public LayerMask whatStopsMovement = (1 << 6);
     public LayerMask EnterVill = (1 << 8);
@@ -21,6 +20,7 @@ public class Range : Units
     void Start()
     {
         active = false;
+        hasAttacked = false;
         cost = 7;
         hp = 20;
         atk = 20;
@@ -39,6 +39,7 @@ public class Range : Units
         sprite = Resources.Load<Sprite>("Circle");
         spriteRenderer.sprite = sprite;
         selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
+        selectionCircle.GetComponent<SpriteRenderer>().sortingOrder = 5;
         print(cost);
         //gameObject.AddComponent<Movement>();
         //transform.position = new Vector3(x, y, 0);
@@ -117,6 +118,7 @@ public class Range : Units
 
         //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
         move = 0;
+        Debug.Log("Combat was triggered");
     }
     public override void Moving() { }
     //falls wait() für alle gleich ist hier implementieren

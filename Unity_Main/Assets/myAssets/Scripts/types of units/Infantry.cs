@@ -8,8 +8,6 @@ public class Infantry : Units
     Movement movement;
     private Vector3Int position;
 
-    public Transform movePoint;
-
     public LayerMask EnterForest = (1 << 10);
     public LayerMask EnterHill = (1 << 7);
 
@@ -21,6 +19,7 @@ public class Infantry : Units
     void Start()
     {
         active = false;
+        hasAttacked = false;
         cost = 5;
         hp = 30;
         atk = 15;
@@ -40,6 +39,7 @@ public class Infantry : Units
         sprite = Resources.Load<Sprite>("Circle");
         spriteRenderer.sprite = sprite;
         selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
+        selectionCircle.GetComponent<SpriteRenderer>().sortingOrder = 5;
         //Unit Selection setup DONE
         print(cost);
     }
@@ -108,6 +108,7 @@ public class Infantry : Units
 
         //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
         move = 0;
+        Debug.Log("Combat was triggered");
     }
     public override void Moving() { }
     //falls wait() für alle gleich ist hier implementieren

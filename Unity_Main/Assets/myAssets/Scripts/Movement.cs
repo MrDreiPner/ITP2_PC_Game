@@ -24,6 +24,8 @@ public class Movement : MonoBehaviour
         //movePoint = null;
         unitMovePoint.transform.position = new Vector3(transform.position.x, transform.position.y, 0);
         movePoint = unitMovePoint.transform;
+        this.transform.GetComponent<Units>().movePoint = unitMovePoint.transform;
+        unitMovePoint.transform.parent = this.transform.parent;
         //movePoint = unitMovePoint.transform.position;
 }
 
