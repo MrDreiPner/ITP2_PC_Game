@@ -108,7 +108,7 @@ public class Infantry : Units
 
         //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
         move = 0;
-        Debug.Log("Combat was triggered");
+        Debug.Log("Combat was triggered" + (int)Mathf.Round(damage));
     }
     public override void Moving() { }
     //falls wait() für alle gleich ist hier implementieren

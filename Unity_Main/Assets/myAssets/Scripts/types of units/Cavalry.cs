@@ -101,7 +101,7 @@ public class Cavalry : Units
         //ausgabe am bildschirm noch implementieren
 
         //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
-        Debug.Log("Combat was triggered");
+        Debug.Log("Combat was triggered" + (int)Mathf.Round(damage));
     }
     public override void Moving() { }
     //falls wait() für alle gleich ist hier implementieren

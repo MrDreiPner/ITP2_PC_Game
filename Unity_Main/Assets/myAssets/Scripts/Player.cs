@@ -13,15 +13,12 @@ public class Player : MonoBehaviour
     public GameObject cavalryPrefab2;
     public GameObject archerPrefab2;
     public bool playerTag;
-    public bool ownCastle;
+    public bool ownEnemyCastle; //WinCondition
     public bool ownMine;
     public int ownVillage;
     //Konstruktor
     public Player(bool playerTag)
     {
-        //army.Add(new Infantry());
-        //army.Add(new Infantry());
-        //army.Add(new Infantry());
         print("player was created");
         money = 3;
         this.playerTag = playerTag;
@@ -31,37 +28,6 @@ public class Player : MonoBehaviour
         print("player was deleted");
     }
 //public Methods
-    public void PlaceUnit(){
-        //Versuch um gleich prefabs hinzuzufügen:
-        //https://www.youtube.com/watch?v=eACZk-XDP2A
-        /*GameObject infantry = Instantiate(infantryPrefab, transform.position, Quaternion.identity) as GameObject;
-        infantry.transform.parent = this.transform;
-        GameObject infantry2 = Instantiate(infantryPrefab, transform.position, Quaternion.identity) as GameObject;
-        infantry2.transform.parent = this.transform;
-        GameObject archer = Instantiate(archerPrefab, transform.position, Quaternion.identity) as GameObject;
-        archer.transform.parent = this.transform; */
-        /* das war schon vorher da
-        GameObject infObject = new GameObject("Infantry-1");
-        infObject.transform.parent = this.transform;
-        infObject.AddComponent<Infantry>();
-        GameObject rangeObject = new GameObject("Archer-1");
-        rangeObject.transform.parent = this.transform;
-        rangeObject.AddComponent<Range>();
-        rangeObject.GetComponent<Range>().playerTag = 2;
-        */
-
-        //das war schon auskommentiert
-        /*GameObject cavObject = new GameObject("Cavalry-1");
-        cavObject.transform.parent = this.transform;
-        cavObject.AddComponent<Cavalry>();
-        GameObject siegeObject = new GameObject("Siege-1");
-        siegeObject.transform.parent = this.transform;
-        siegeObject.AddComponent<Siege>();*/
-
-        //das war nicht auskommentiert
-        /*army.Add(infObject);
-        army.Add(rangeObject);*/
-    }
 
     public void AddUnit(int choice)
     {
@@ -69,27 +35,27 @@ public class Player : MonoBehaviour
         switch (choice)
         {
             case 1:
-                newObject = Instantiate(infantryPrefab, transform.position, Quaternion.identity, this.transform.parent) as GameObject;
+                newObject = Instantiate(infantryPrefab, new Vector3(-5.5f, -2.5f,5), Quaternion.identity, this.transform.parent) as GameObject;
                 money -= 5;
                 break;
             case 2:
-                newObject = Instantiate(archerPrefab, transform.position, Quaternion.identity, this.transform.parent) as GameObject;
+                newObject = Instantiate(archerPrefab, new Vector3(-5.5f, -2.5f, 5), Quaternion.identity, this.transform.parent) as GameObject;
                 money -= 7;
                 break;
             case 3:
-                newObject = Instantiate(cavalryPrefab, transform.position, Quaternion.identity, this.transform.parent) as GameObject;
+                newObject = Instantiate(cavalryPrefab, new Vector3(-5.5f, -2.5f, 5), Quaternion.identity, this.transform.parent) as GameObject;
                 money -= 10;
                 break;
             case 4:
-                newObject = Instantiate(infantryPrefab2, transform.position, Quaternion.identity, this.transform.parent) as GameObject;
+                newObject = Instantiate(infantryPrefab2, new Vector3(4.5f, 2.5f, 5), Quaternion.identity, this.transform.parent) as GameObject;
                 money -= 5;
                 break;
             case 5:
-                newObject = Instantiate(archerPrefab2, transform.position, Quaternion.identity, this.transform.parent) as GameObject;
+                newObject = Instantiate(archerPrefab2, new Vector3(4.5f, 2.5f, 5), Quaternion.identity, this.transform.parent) as GameObject;
                 money -= 7;
                 break;
             case 6:
-                newObject = Instantiate(cavalryPrefab2, transform.position, Quaternion.identity, this.transform.parent) as GameObject;
+                newObject = Instantiate(cavalryPrefab2, new Vector3(4.5f, 2.5f, 5), Quaternion.identity, this.transform.parent) as GameObject;
                 money -= 10;
                 break;
             default:
@@ -97,30 +63,25 @@ public class Player : MonoBehaviour
                 break;
         }
         newObject.transform.parent = this.transform;
-        army.Add(newObject);
     }
     //this function should reset the values of each unit a player has when he/she ends his/her turn
     public void ResetUnits()
     {
-        //army.Count return the amount of elements in the list
-        if(army.Count != 0)
+        for (int i = 0; i < (transform.childCount / 2); i++)
         {
-            //geld dazu zählen fehlt noch
-            foreach(GameObject unit in army)
+            if (transform.GetChild(i).GetComponent<Units>().type == Units.Types.infantry)
             {
-                if (unit.GetComponent<Units>().Type == Units.Types.infantry)
-                {
-                    unit.GetComponent<Units>().move = 4;
-                }
-                else if (unit.GetComponent<Units>().Type == Units.Types.cavalry)
-                {
-                    unit.GetComponent<Units>().move = 6;
-                }
-                else if (unit.GetComponent<Units>().Type == Units.Types.range)
-                {
-                    unit.GetComponent<Units>().move = 4;
-                }
+                transform.GetChild(i).GetComponent<Units>().move = 4;
             }
+            else if (transform.GetChild(i).GetComponent<Units>().type == Units.Types.cavalry)
+            {
+                transform.GetChild(i).GetComponent<Units>().move = 6;
+            }
+            else if (transform.GetChild(i).GetComponent<Units>().type == Units.Types.range)
+            {
+                transform.GetChild(i).GetComponent<Units>().move = 4;
+            }
+            transform.GetChild(i).GetComponent<Units>().hasAttacked = false;
         }
         Debug.Log("Refresh gets called");
     }
@@ -129,22 +90,14 @@ public class Player : MonoBehaviour
         get { return money; }
         set { money = value; }
     }
-    public void PrintArmy()
-    {
-        foreach (GameObject unit in army)
-        {
-            print(unit.GetComponent<Units>().Type);
-        }
-    }
+
     //Private Variables
-    public List <GameObject> army;
     public int money;
 
     // Start is called before the first frame update
     void Start()
     {
-        PlaceUnit();
-        PrintArmy();
+        ownVillage = 2;
     }
 
     // Update is called once per frame
