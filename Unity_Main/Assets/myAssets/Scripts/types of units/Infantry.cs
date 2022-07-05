@@ -39,6 +39,15 @@ public class Infantry : Units
         spriteRenderer.sprite = sprite;
         selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
         selectionCircle.GetComponent<SpriteRenderer>().sortingOrder = 5;
+
+        GameObject targetHex = new GameObject("TargetHex");
+        targetHex.transform.parent = this.transform;
+        targetHex.transform.position = this.transform.position;
+        spriteRenderer = targetHex.AddComponent<SpriteRenderer>();
+        sprite = Resources.Load<Sprite>("HexaTarg");
+        spriteRenderer.sprite = sprite;
+        targetHex.GetComponent<SpriteRenderer>().enabled = false;
+        targetHex.GetComponent<SpriteRenderer>().sortingOrder = 5;
         //Unit Selection setup DONE
         print(cost); 
     }
@@ -101,7 +110,10 @@ public class Infantry : Units
             Destroy(target.gameObject);
         }
         move = 0;
-        transform.parent.parent.GetComponent<Game>().eventLog = " Infantry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
+        if (playerTag)
+            transform.parent.parent.GetComponent<Game>().eventLog = "Player1 Infantry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
+        else
+            transform.parent.parent.GetComponent<Game>().eventLog = "Player2 Infantry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
     }
 
     

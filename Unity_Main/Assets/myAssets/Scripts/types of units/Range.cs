@@ -37,6 +37,14 @@ public class Range : Units
         spriteRenderer.sprite = sprite;
         selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
         selectionCircle.GetComponent<SpriteRenderer>().sortingOrder = 5;
+        GameObject targetHex = new GameObject("TargetHex");
+        targetHex.transform.parent = this.transform;
+        targetHex.transform.position = this.transform.position;
+        spriteRenderer = targetHex.AddComponent<SpriteRenderer>();
+        sprite = Resources.Load<Sprite>("HexaTarg");
+        spriteRenderer.sprite = sprite;
+        targetHex.GetComponent<SpriteRenderer>().enabled = false;
+        targetHex.GetComponent<SpriteRenderer>().sortingOrder = 5;
         print(cost);
     }
 
@@ -101,7 +109,10 @@ public class Range : Units
             Destroy(target.gameObject);
         }
         move = 0;
-        transform.parent.parent.GetComponent<Game>().eventLog = " Archer dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
+        if (playerTag)
+            transform.parent.parent.GetComponent<Game>().eventLog = "Player1 Archer dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
+        else
+            transform.parent.parent.GetComponent<Game>().eventLog = "Player2 Archer dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
     }
 
     //For Displaying Ingame Stats on Hovering with Mouse

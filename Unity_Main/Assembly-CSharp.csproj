@@ -60,6 +60,7 @@
     <Compile Include="Assets\myAssets\Scripts\Player.cs" />
     <Compile Include="Assets\myAssets\Scripts\types of units\Range.cs" />
     <Compile Include="Assets\myAssets\Scripts\WinScreen.cs" />
+    <Compile Include="Assets\PlayerMoneyText.cs" />
     <Compile Include="Assets\myAssets\Scripts\types of units\Siege.cs" />
     <Compile Include="Assets\myAssets\Scripts\types of units\Infantry.cs" />
     <Compile Include="Assets\myAssets\Scripts\different terrains\Hill.cs" />
@@ -74,10 +75,9 @@
     <Compile Include="Assets\myAssets\Scripts\different terrains\Shallow.cs" />
     <Compile Include="Assets\myAssets\Scripts\TerrainTypes.cs" />
     <Compile Include="Assets\myAssets\Scripts\Units.cs" />
+    <Compile Include="Assets\EventLogger.cs" />
     <Compile Include="Assets\myAssets\Scripts\TooltipManager.cs" />
     <Compile Include="Assets\myAssets\Scripts\types of units\Cavalry.cs" />
-    <Compile Include="Assets\PlayerMoneyText.cs" />
-    <Compile Include="Assets\EventLogger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
