@@ -76,6 +76,8 @@
     <Compile Include="Assets\myAssets\Scripts\Units.cs" />
     <Compile Include="Assets\myAssets\Scripts\TooltipManager.cs" />
     <Compile Include="Assets\myAssets\Scripts\types of units\Cavalry.cs" />
+    <Compile Include="Assets\PlayerMoneyText.cs" />
+    <Compile Include="Assets\EventLogger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

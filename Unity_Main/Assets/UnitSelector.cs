@@ -39,6 +39,7 @@ public class UnitSelector : MonoBehaviour
                                 prevUnit.GetComponent<Units>().Attack(hit.collider.gameObject.GetComponent<Units>());
                                 prevUnit.GetComponent<Units>().hasAttacked = true;
                             }
+                            else transform.parent.parent.GetComponent<Game>().eventLog = " Target out of Range ";
                         }
                         else if (Mathf.Abs(prevUnit.transform.position.x - hit.collider.gameObject.transform.position.x) <= 1
                                  && Mathf.Abs(prevUnit.transform.position.y - hit.collider.gameObject.transform.position.y) <= 1)
@@ -49,7 +50,7 @@ public class UnitSelector : MonoBehaviour
                         }
                         else
                         {
-                            Debug.Log("Target out of range!");
+                            transform.parent.parent.GetComponent<Game>().eventLog = " Target out of Range ";
                         }
 
                     }
@@ -69,6 +70,7 @@ public class UnitSelector : MonoBehaviour
             else if (prevUnit != null)
             {
                 prevUnit.GetComponent<Units>().active = false;
+                prevUnit = null;
             }
         }
     }

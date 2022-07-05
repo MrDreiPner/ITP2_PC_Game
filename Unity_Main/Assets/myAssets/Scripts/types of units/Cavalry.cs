@@ -22,9 +22,6 @@ public class Cavalry : Units
         def = 15;
         move = 6;
         range = 1;
-        //id = ;
-        x = 2;
-        y = 2.5f;
         type = Types.cavalry;
         weakness = 0;
         GameObject selectionCircle = new GameObject("SelectionCircle");
@@ -36,10 +33,6 @@ public class Cavalry : Units
         selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
         selectionCircle.GetComponent<SpriteRenderer>().sortingOrder = 5;
         print(cost);
-        //gameObject.AddComponent<Movement>();
-        //transform.position = new Vector3(x, y, 0);
-        //GameObject movePoint = new GameObject("UnitMovePoint");
-        //movePoint.transform.parent = this.transform;
     }
 
     // Update is called once per frame
@@ -59,14 +52,11 @@ public class Cavalry : Units
         if (playerTag)
         {
             selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
-            //this.GetComponent<SpriteRenderer>().flipY = true;
-            //this.GetComponent<SpriteRenderer>().color = Color.blue;
         }
         else
         {
             selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
             this.GetComponent<SpriteRenderer>().flipX = true;
-            //this.GetComponent<SpriteRenderer>().color = Color.red;
         }
     }
     public override float Defend()
@@ -98,15 +88,8 @@ public class Cavalry : Units
         {
             Destroy(target.gameObject);
         }
-        //ausgabe am bildschirm noch implementieren
-
-        //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
-        Debug.Log("Combat was triggered" + (int)Mathf.Round(damage));
+        transform.parent.parent.GetComponent<Game>().eventLog = " Cavalry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
     }
-    public override void Moving() { }
-    //falls wait() für alle gleich ist hier implementieren
-    public override void Wait() { }
-
 
     //For Displaying Ingame Stats on Hovering with Mouse
     private void OnMouseEnter()

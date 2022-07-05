@@ -28,9 +28,6 @@ public class Infantry : Units
         def = 10;
         move = 4;
         range = 1;
-        //id = ;
-        x = 2;
-        y = 2.5f;
         type = 0;
         weakness = Types.range;
         //Unit Selection setup
@@ -64,14 +61,11 @@ public class Infantry : Units
         if(playerTag)
         {
             selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
-            //this.GetComponent<SpriteRenderer>().flipY = true;
-            //this.GetComponent<SpriteRenderer>().color = Color.blue;
         }
         else
         {
             selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
             this.GetComponent<SpriteRenderer>().flipX = true;
-            //this.GetComponent<SpriteRenderer>().color = Color.red;
         }
     }
     public override float Defend()
@@ -103,18 +97,12 @@ public class Infantry : Units
         
         //checks if the object is still alive 
         if (target.GetComponent<Units>().HP <= 0)
-        {
+        { 
             Destroy(target.gameObject);
         }
-        //ausgabe am bildschirm noch implementieren
-
-        //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
         move = 0;
-        Debug.Log("Combat was triggered" + (int)Mathf.Round(damage));
+        transform.parent.parent.GetComponent<Game>().eventLog = " Infantry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
     }
-    public override void Moving() { }
-    //falls wait() für alle gleich ist hier implementieren
-    public override void Wait() { }
 
     
     //For Displaying Ingame Stats on Hovering with Mouse

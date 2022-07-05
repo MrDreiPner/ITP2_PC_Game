@@ -72,11 +72,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   header: Forest
-  content: 'All: Movement-
-
-    Cavalry: Defense-
-
-    Infantry & Range: Defense+'
+  content: 'Infantry & Range: Defense+'
 --- !u!222 &3093864284038488587
 CanvasRenderer:
   m_ObjectHideFlags: 0

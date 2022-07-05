@@ -17,8 +17,6 @@ public class Siege : Units
         range = 3;
         //id = ;
         this.playerTag = playerTag;
-        x = 2;
-        y = 2.5f;
         type = Types.siege;
         weakness = Types.infantry;
         //aoeRange = 2;
@@ -66,9 +64,6 @@ public class Siege : Units
         //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
         move = 0;
     }
-    public override void Moving() { }
-    //falls wait() für alle gleich ist hier implementieren
-    public override void Wait() { }
 
 
     //For Displaying Ingame Stats on Hovering with Mouse

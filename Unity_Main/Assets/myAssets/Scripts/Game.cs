@@ -7,6 +7,7 @@ public class Game : MonoBehaviour
 {
     public bool turn; //true = player1, false = player2
     public GameObject BuyUnitMenu;
+    public string eventLog;
 
 //Konstruktor
     public Game(){
@@ -72,8 +73,7 @@ public class Game : MonoBehaviour
     }
 
     public void Buy()
-    {
-        
+    { 
         var dropdown = transform.GetComponent<Dropdown>();
         if (transform.parent.parent.parent.GetComponent<Game>().turn)
         {
@@ -84,24 +84,24 @@ public class Game : MonoBehaviour
             {
                 if (dropdown.value == 1)
                 {
-                    if (Player1.GetComponent<Player>().Money < 5) Debug.Log("Not enough money");
+                    if (Player1.GetComponent<Player>().Money < 5) transform.parent.parent.parent.GetComponent<Game>().eventLog = " Not enough money ";
                     else Player1.GetComponent<Player>().AddUnit(dropdown.value);
                     Destroy(dropdown.gameObject);
                 }
                 else if (dropdown.value == 2)
                 {
-                    if (Player1.GetComponent<Player>().Money < 7) Debug.Log("Not enough money");
+                    if (Player1.GetComponent<Player>().Money < 7) transform.parent.parent.parent.GetComponent<Game>().eventLog = " Not enough money ";
                     else Player1.GetComponent<Player>().AddUnit(dropdown.value);
                     Destroy(dropdown.gameObject);
                 }
                 else if (dropdown.value == 3)
                 {
-                    if (Player1.GetComponent<Player>().Money < 10) Debug.Log("Not enough money");
+                    if (Player1.GetComponent<Player>().Money < 10) transform.parent.parent.parent.GetComponent<Game>().eventLog = " Not enough money ";
                     else Player1.GetComponent<Player>().AddUnit(dropdown.value);
                     Destroy(dropdown.gameObject);
                 }
             }
-            else Debug.Log("space occupied");
+            else transform.parent.parent.parent.GetComponent<Game>().eventLog = " Space already occupied ";
         }
         else
         {
@@ -112,22 +112,22 @@ public class Game : MonoBehaviour
                 Debug.Log(turn + "Player2");
                 if (dropdown.value == 1)
                 {
-                    if (Player2.GetComponent<Player>().Money < 5) Debug.Log("Not enough money");
+                    if (Player2.GetComponent<Player>().Money < 5) transform.parent.parent.parent.GetComponent<Game>().eventLog = " Not enough money ";
                     else Player2.GetComponent<Player>().AddUnit(dropdown.value + 3);
                 }
                 else if (dropdown.value == 2)
                 {
-                    if (Player2.GetComponent<Player>().Money < 7) Debug.Log("Not enough money");
+                    if (Player2.GetComponent<Player>().Money < 7) transform.parent.parent.parent.GetComponent<Game>().eventLog = " Not enough money ";
                     else Player2.GetComponent<Player>().AddUnit(dropdown.value + 3);
                 }
                 else if (dropdown.value == 3)
                 {
-                    if (Player2.GetComponent<Player>().Money < 10) Debug.Log("Not enough money");
+                    if (Player2.GetComponent<Player>().Money < 10) transform.parent.parent.parent.GetComponent<Game>().eventLog = " Not enough money ";
                     else Player2.GetComponent<Player>().AddUnit(dropdown.value + 3);
                 }
                 Destroy(dropdown.gameObject);
             }
-            else Debug.Log("space occupied");
+            else transform.parent.parent.parent.GetComponent<Game>().eventLog = " Space already occupied ";
         }
            
     }

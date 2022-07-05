@@ -15,9 +15,6 @@ public abstract class Units : MonoBehaviour
     }
     public abstract void Attack(Units target);
     public abstract float Defend();
-    public abstract void Moving();
-    //falls wait() für alle gleich ist hier implementieren
-    public abstract void Wait();
 
     public bool hasAttacked;
     public bool active;
@@ -27,10 +24,7 @@ public abstract class Units : MonoBehaviour
     protected int def;
     public int move;
     protected int range;
-    //protected int id;
     public bool playerTag;
-    protected float x;
-    protected float y;
     public Types type;
     protected Types weakness;
 

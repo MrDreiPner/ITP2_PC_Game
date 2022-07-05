@@ -27,9 +27,6 @@ public class Range : Units
         def = 10;
         move = 4;
         range = 3;
-        //id = ;
-        x = 2;
-        y = 2.5f;
         type = Types.range;
         weakness = Types.cavalry;
         GameObject selectionCircle = new GameObject("SelectionCircle");
@@ -41,10 +38,6 @@ public class Range : Units
         selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
         selectionCircle.GetComponent<SpriteRenderer>().sortingOrder = 5;
         print(cost);
-        //gameObject.AddComponent<Movement>();
-        //transform.position = new Vector3(x, y, 0);
-        //GameObject movePoint = new GameObject("UnitMovePoint");
-        //movePoint.transform.parent = this.transform;
     }
 
     // Update is called once per frame
@@ -64,14 +57,11 @@ public class Range : Units
         if (playerTag)
         {
             selectionCircle.GetComponent<SpriteRenderer>().color = Color.blue;
-            //this.GetComponent<SpriteRenderer>().flipY = true;
-            //this.GetComponent<SpriteRenderer>().color = Color.blue;
         }
         else
         {
             selectionCircle.GetComponent<SpriteRenderer>().color = Color.red;
             this.GetComponent<SpriteRenderer>().flipX = true;
-            //this.GetComponent<SpriteRenderer>().color = Color.red;
         }
     }
     public override float Defend()
@@ -91,11 +81,7 @@ public class Range : Units
     public override void Attack(Units target)
     {
         float atkBonus = 1;
-
-       
         //atk, hp, defense, range
-        
-
         if (target.Weakness == this.type)
             atkBonus += 0.2f;
 
@@ -114,16 +100,9 @@ public class Range : Units
         {
             Destroy(target.gameObject);
         }
-        //ausgabe am bildschirm noch implementieren
-
-        //range gehört noch berechnet je nach reichweite funktioniert der angriff oder nicht....
         move = 0;
-        Debug.Log("Combat was triggered" + (int)Mathf.Round(damage));
+        transform.parent.parent.GetComponent<Game>().eventLog = " Archer dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
     }
-    public override void Moving() { }
-    //falls wait() für alle gleich ist hier implementieren
-    public override void Wait() { }
-
 
     //For Displaying Ingame Stats on Hovering with Mouse
     private void OnMouseEnter()
