@@ -46,15 +46,12 @@ public class Game : MonoBehaviour
 //private Variables
     private GameObject Player1;
     private GameObject Player2;
-    //private Grid Map;
 
     // Start is called before the first frame update
     void Start()
     {
-        //Game Spiel = gameObject.AddComponent<Game>(); //evtl noch ändern
         Player1 = GameObject.Find("Player 1");
         Player2 = GameObject.Find("Player 2");
-        //PutUnitsInList();
     }
 
     // Update is called once per frame

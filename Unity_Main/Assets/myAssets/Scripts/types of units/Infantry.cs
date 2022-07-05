@@ -30,7 +30,7 @@ public class Infantry : Units
         range = 1;
         type = 0;
         weakness = Types.range;
-        //Unit Selection setup
+        //UnitSelection script preparation setup
         GameObject selectionCircle = new GameObject("SelectionCircle");
         selectionCircle.transform.parent = this.transform;
         selectionCircle.transform.position = this.transform.position;
@@ -48,8 +48,7 @@ public class Infantry : Units
         spriteRenderer.sprite = sprite;
         targetHex.GetComponent<SpriteRenderer>().enabled = false;
         targetHex.GetComponent<SpriteRenderer>().sortingOrder = 5;
-        //Unit Selection setup DONE
-        print(cost); 
+        //UnitSelector preparation DONE
     }
 
     // Update is called once per frame

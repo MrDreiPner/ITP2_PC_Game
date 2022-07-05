@@ -4,13 +4,9 @@ using UnityEngine;
 
 public class UnitSelector : MonoBehaviour
 {
-    bool isDone;
-    //private Camera _MainCamera;
     // Start is called before the first frame update
     void Start()
     {
-        //_MainCamera = Camera.main;
-        //isDone = false;
     }
 
     GameObject prevUnit = null;
@@ -21,10 +17,11 @@ public class UnitSelector : MonoBehaviour
     {
         UnitSel();
         TargetSel();
-
     }
     void UnitSel()
     {
+        //On mouseclick all possible options get checked in relationship to the selected unit and distance to target
+        //or if the selected unit gets deselected
         if (Input.GetMouseButtonUp(0))
         {
             Vector2 raycastPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -84,7 +81,7 @@ public class UnitSelector : MonoBehaviour
 
     void TargetSel()
     {
-
+        //Checks if selected unit is in range and shows if selected unit can attack target unit
         if (prevUnit != null && prevUnit.GetComponent<Units>().hasAttacked == false)
         {
             Vector2 raycastPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -122,10 +119,6 @@ public class UnitSelector : MonoBehaviour
                 }
                 targetUnit = hit.collider.gameObject;
             }
-            /*if(targetUnit != null)
-            {
-                targetUnit.transform.GetChild(1).GetComponent<SpriteRenderer>().enabled = false;
-            }*/
         }
         else
         {

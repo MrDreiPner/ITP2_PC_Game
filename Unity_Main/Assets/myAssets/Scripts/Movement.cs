@@ -21,19 +21,17 @@ public class Movement : MonoBehaviour
     {
         
         GameObject unitMovePoint = new GameObject("MovePoint");
-        //movePoint = null;
         unitMovePoint.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         movePoint = unitMovePoint.transform;
         this.transform.GetComponent<Units>().movePoint = unitMovePoint.transform;
         unitMovePoint.transform.parent = this.transform.parent;
-        //movePoint = unitMovePoint.transform.position;
 }
 
     // Update is called once per frame
     void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, movePoint.position, moveSpeed * Time.deltaTime);
-        
+        //checks if unit can move and what it enters or collides with
         if(this.GetComponent<Units>().move > 0)
         {
             if (Vector3.Distance(transform.position, movePoint.position) <= .0f)

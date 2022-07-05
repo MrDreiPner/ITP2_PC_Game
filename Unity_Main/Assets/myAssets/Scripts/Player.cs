@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
         }
         newObject.transform.parent = this.transform;
     }
-    //this function should reset the values of each unit a player has when he/she ends his/her turn
+    //this function resets the values of each unit a player has when he/she ends his/her turn
     public void ResetUnits()
     {
        

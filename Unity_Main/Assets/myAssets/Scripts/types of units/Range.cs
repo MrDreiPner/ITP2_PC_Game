@@ -29,6 +29,7 @@ public class Range : Units
         range = 3;
         type = Types.range;
         weakness = Types.cavalry;
+        //UnitSelection script preparation setup
         GameObject selectionCircle = new GameObject("SelectionCircle");
         selectionCircle.transform.parent = this.transform;
         selectionCircle.transform.position = this.transform.position;
@@ -38,6 +39,7 @@ public class Range : Units
         selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
         selectionCircle.GetComponent<SpriteRenderer>().sortingOrder = 5;
         GameObject targetHex = new GameObject("TargetHex");
+
         targetHex.transform.parent = this.transform;
         targetHex.transform.position = this.transform.position;
         spriteRenderer = targetHex.AddComponent<SpriteRenderer>();
@@ -45,7 +47,7 @@ public class Range : Units
         spriteRenderer.sprite = sprite;
         targetHex.GetComponent<SpriteRenderer>().enabled = false;
         targetHex.GetComponent<SpriteRenderer>().sortingOrder = 5;
-        print(cost);
+        //UnitSelector preparation DONE
     }
 
     // Update is called once per frame
