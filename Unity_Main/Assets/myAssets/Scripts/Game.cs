@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 public class Game : MonoBehaviour
 {
     public bool turn; //true = player1, false = player2
@@ -62,7 +62,13 @@ public class Game : MonoBehaviour
         if (turn) Player1.GetComponent<Player>().EnemyCastleOccupied(new Vector2(4.5f, 2.5f));
         else Player2.GetComponent<Player>().EnemyCastleOccupied(new Vector2(-5.5f, -2.5f));
         bool win = CheckWin();
-        if (win) Destroy(this);
+        if (win)
+        {
+            Destroy(this);
+            if(turn) SceneManager.LoadScene(2);
+            else SceneManager.LoadScene(3);
+        }
+        
     }
 
     public void Buy()
