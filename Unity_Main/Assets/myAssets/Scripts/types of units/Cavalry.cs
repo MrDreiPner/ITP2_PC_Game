@@ -97,9 +97,9 @@ public class Cavalry : Units
             Destroy(target.gameObject);
         }
         if(playerTag)
-            transform.parent.parent.GetComponent<Game>().eventLog = "Player1 Cavalry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
+            transform.parent.parent.GetComponent<Game>().eventLog = " Player 1 Cavalry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
         else
-            transform.parent.parent.GetComponent<Game>().eventLog = "Player2 Cavalry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
+            transform.parent.parent.GetComponent<Game>().eventLog = " Player 2 Cavalry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
     }
 
     //For Displaying Ingame Stats on Hovering with Mouse

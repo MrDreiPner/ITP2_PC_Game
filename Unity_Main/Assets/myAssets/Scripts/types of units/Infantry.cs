@@ -111,9 +111,9 @@ public class Infantry : Units
         }
         move = 0;
         if (playerTag)
-            transform.parent.parent.GetComponent<Game>().eventLog = "Player1 Infantry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
+            transform.parent.parent.GetComponent<Game>().eventLog = " Player 1 Infantry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
         else
-            transform.parent.parent.GetComponent<Game>().eventLog = "Player2 Infantry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
+            transform.parent.parent.GetComponent<Game>().eventLog = " Player 2 Infantry dealt " + (int)Mathf.Round(damage) + " damage to opponent. ";
     }
 
     
