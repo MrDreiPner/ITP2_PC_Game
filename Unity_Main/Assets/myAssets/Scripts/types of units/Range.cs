@@ -131,7 +131,7 @@ public class Range : Units
     private IEnumerator StartTimer()
     {
         float timetowait = 0.5f;
-        string header = "Range";
+        string header = "Archer";
         string content = "HP: " + hp.ToString() + "\nAttack: " + atk.ToString() + "\nDefense: " + def.ToString() + "\nMove: " + move.ToString() + "\nRange: " + range.ToString() + "\nCost: " + cost.ToString();
 
         yield return new WaitForSeconds(timetowait);
