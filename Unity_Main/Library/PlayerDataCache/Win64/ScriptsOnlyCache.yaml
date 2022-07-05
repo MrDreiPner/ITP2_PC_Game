@@ -33,7 +33,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.GameObjectBrush
     - UnityEditor.Tilemaps.GroupBrush
     - UnityEditor.Tilemaps.LineBrush
-    - UnityEditor.Tilemaps.PrefabBrush
     - UnityEditor.Tilemaps.RandomBrush
     - UnityEditor.Tilemaps.TintBrush
     - UnityEditor.Tilemaps.TintBrushSmooth
