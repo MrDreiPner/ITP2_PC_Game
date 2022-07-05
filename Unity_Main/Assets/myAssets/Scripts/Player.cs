@@ -8,7 +8,6 @@ public class Player : MonoBehaviour
     public GameObject infantryPrefab;
     public GameObject cavalryPrefab;
     public GameObject archerPrefab;
-    public GameObject rangePrefab;//Siege wird gelöscht
     public GameObject infantryPrefab2;
     public GameObject cavalryPrefab2;
     public GameObject archerPrefab2;
@@ -28,7 +27,7 @@ public class Player : MonoBehaviour
         print("player was deleted");
     }
     //public Methods
-    public void EnemyCastleOccupied(Vector2 Castle)
+    public void EnemyCastleOccupied(Vector2 Castle) //Checks each units location to find out if opponents castle is taken
     {
         Vector2 raycastPos = Castle;
         RaycastHit2D hit = Physics2D.Raycast(raycastPos, Vector2.zero, Mathf.Infinity, (1 << 3));
@@ -47,6 +46,7 @@ public class Player : MonoBehaviour
     }
     public void AddUnit(int choice)
     {
+        //Spawns newly bought unit at player's castle
         GameObject newObject;
         switch (choice)
         {
@@ -80,7 +80,7 @@ public class Player : MonoBehaviour
         }
         newObject.transform.parent = this.transform;
     }
-    //this function resets the values of each unit a player has when he/she ends his/her turn
+    //this function resets the values of each unit a player has when they ends their turn
     public void ResetUnits()
     {
        

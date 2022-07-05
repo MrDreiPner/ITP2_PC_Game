@@ -14,6 +14,7 @@ public class PlayerMoneyText : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Gets turn info and player's money count to display on screen
         string playerTurn;
         if (transform.parent.parent.GetComponent<Game>().turn) playerTurn = " Player 1's turn: \nMoney: " + transform.parent.parent.GetChild(0).GetComponent<Player>().money + " ";
         else playerTurn = " Player 2's turn: \nMoney: " + transform.parent.parent.GetChild(1).GetComponent<Player>().money + " ";

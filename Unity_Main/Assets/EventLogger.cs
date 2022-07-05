@@ -14,6 +14,7 @@ public class EventLogger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Gets String from Game.eventLog and displays it on bottom of the screen
         transform.GetChild(0).GetComponent<Text>().text = transform.parent.parent.GetComponent<Game>().eventLog;
     }
 }

@@ -11,9 +11,6 @@ public class Game : MonoBehaviour
 
 //Konstruktor
     public Game(){
-        //print("Game created");
-        //Player1 = new Player(1);
-        //Player2 = new Player(2);
         turn = true;
     }
 //Destuktor
@@ -23,8 +20,8 @@ public class Game : MonoBehaviour
 //public Methods 
     
     public bool CheckWin(){
-        if (turn)
-        {
+        if (turn) 
+        {//Checks if a player has taken the opponents castle i.e.: checks who won
             if (Player1.GetComponent<Player>().ownEnemyCastle)
             {
                 Debug.Log("Player 1 wins!");
@@ -57,6 +54,7 @@ public class Game : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Checks if a player has placed a unit on the opponents castle
         if (turn) Player1.GetComponent<Player>().EnemyCastleOccupied(new Vector2(4.5f, 2.5f));
         else Player2.GetComponent<Player>().EnemyCastleOccupied(new Vector2(-5.5f, -2.5f));
         bool win = CheckWin();
@@ -71,13 +69,16 @@ public class Game : MonoBehaviour
 
     public void Buy()
     { 
+        //Buy new units
+        //Displays dropdown menu to select unit
         var dropdown = transform.GetComponent<Dropdown>();
-        if (transform.parent.parent.parent.GetComponent<Game>().turn)
+        if (transform.parent.parent.parent.GetComponent<Game>().turn) //Player 1 buys
         {
+            //checks if player's castle is empty
             Vector2 raycastPos = new Vector2(-5.5f, -2.5f);
             RaycastHit2D hit = Physics2D.Raycast(raycastPos, Vector2.zero, Mathf.Infinity, (1 << 3));
             Debug.Log(turn + "Player1");
-            if (hit.collider == null)
+            if (hit.collider == null) //if no unit on castle tile
             {
                 if (dropdown.value == 1)
                 {
@@ -100,7 +101,7 @@ public class Game : MonoBehaviour
             }
             else transform.parent.parent.parent.GetComponent<Game>().eventLog = " Space already occupied ";
         }
-        else
+        else //Player 2 buys
         {
             Vector2 raycastPos = new Vector2(4.5f, 2.5f);
             RaycastHit2D hit = Physics2D.Raycast(raycastPos, Vector2.zero, Mathf.Infinity, (1 << 3));
@@ -132,6 +133,9 @@ public class Game : MonoBehaviour
     //Function for the Round button
     public void EndTurn()
     {
+        //When end turn button is pressed
+        //restore all move points of previous players' units
+        //player earns money
         if (transform.parent.parent.GetComponent<Game>().turn)
         {
             //Player1 ist am zug
@@ -150,7 +154,7 @@ public class Game : MonoBehaviour
         Debug.Log("button" + turn);
     }
 
-    public void BuyMenu()
+    public void BuyMenu() //triggers Buying menu dropdown display
     {
         GameObject menu = Instantiate(BuyUnitMenu, new Vector3(transform.position.x, transform.position.y, 0), Quaternion.identity) as GameObject;
         menu.transform.parent = this.transform;

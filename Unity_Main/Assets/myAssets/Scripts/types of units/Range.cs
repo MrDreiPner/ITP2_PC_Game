@@ -74,7 +74,7 @@ public class Range : Units
             this.GetComponent<SpriteRenderer>().flipX = true;
         }
     }
-    public override float Defend()
+    public override float Defend() //Checks terrain if unit is on tile that enhances its defense value
     {
         float def = 1;
 
@@ -88,7 +88,7 @@ public class Range : Units
         }
         return def * this.Defense;
     }
-    public override void Attack(Units target)
+    public override void Attack(Units target) //attacks target
     {
         float atkBonus = 1;
         //atk, hp, defense, range

@@ -69,7 +69,7 @@ public class Cavalry : Units
             this.GetComponent<SpriteRenderer>().flipX = true;
         }
     }
-    public override float Defend()
+    public override float Defend() //Checks terrain if unit is on tile that enhances its defense value
     {
         float def = 1;
 
@@ -80,7 +80,7 @@ public class Cavalry : Units
 
         return def * this.Defense;
     }
-    public override void Attack(Units target)
+    public override void Attack(Units target) //Attacks target
     {
         //atk, hp, defense, range
         float atkBonus = 1;
