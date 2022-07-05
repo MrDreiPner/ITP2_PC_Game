@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
+using UnityEngine.EventSystems;
+
 public class Infantry : Units
 {
     Movement movement;
@@ -41,7 +43,7 @@ public class Infantry : Units
         selectionCircle.GetComponent<SpriteRenderer>().enabled = false;
         selectionCircle.GetComponent<SpriteRenderer>().sortingOrder = 5;
         //Unit Selection setup DONE
-        print(cost);
+        print(cost); 
     }
 
     // Update is called once per frame
@@ -113,4 +115,29 @@ public class Infantry : Units
     public override void Moving() { }
     //falls wait() für alle gleich ist hier implementieren
     public override void Wait() { }
+
+    
+    //For Displaying Ingame Stats on Hovering with Mouse
+    private void OnMouseEnter()
+    {
+        StopAllCoroutines();
+        StartCoroutine(StartTimer());
+    }
+
+    private void OnMouseExit()
+    {
+        StopAllCoroutines();
+        TooltipManager._instance.HideToolTip();
+    }
+
+    private IEnumerator StartTimer()
+    {
+        float timetowait = 0.5f;
+        string header = "Infantry";
+        string content = "HP: " + hp.ToString() + "\nAttack: " + atk.ToString() + "\nDefense: " + def.ToString() + "\nMove: " + move.ToString() + "\nRange: " + range.ToString() + "\nCost: " + cost.ToString();
+
+        yield return new WaitForSeconds(timetowait);
+
+        TooltipManager._instance.SetAndShowToolTip(header, content);
+    }
 }

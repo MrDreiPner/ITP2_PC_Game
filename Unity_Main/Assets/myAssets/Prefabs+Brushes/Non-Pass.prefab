@@ -71,7 +71,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: You shall not pass!
+  header: YOU SHALL NOT PASS!!!
+  content: 
 --- !u!222 &583248314507470468
 CanvasRenderer:
   m_ObjectHideFlags: 0

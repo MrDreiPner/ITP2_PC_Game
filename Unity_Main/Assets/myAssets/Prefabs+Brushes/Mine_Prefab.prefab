@@ -72,7 +72,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 
+  header: Mine
+  content: Loot for gold
 --- !u!222 &-3831774453565301608
 CanvasRenderer:
   m_ObjectHideFlags: 0

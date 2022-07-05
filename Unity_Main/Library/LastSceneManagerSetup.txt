@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Menue.unity
+- path: Assets/Scenes/Primitive Conflict.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

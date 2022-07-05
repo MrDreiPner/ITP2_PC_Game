@@ -7,7 +7,10 @@ public class TooltipManager : MonoBehaviour
 {
     public static TooltipManager _instance;
 
-    public TextMeshProUGUI textcomponent;
+    public TextMeshProUGUI headerfield;
+    public TextMeshProUGUI contentfield;
+
+    public int characterWrapLimit;
 
     private void Awake()
     {
@@ -34,15 +37,17 @@ public class TooltipManager : MonoBehaviour
         transform.position = Input.mousePosition;
     }
 
-    public void SetAndShowToolTip(string message)
+    public void SetAndShowToolTip(string header, string content)
     {
         gameObject.SetActive(true);
-        textcomponent.text = message;
+        headerfield.text = header;
+        contentfield.text = content;
     }
 
     public void HideToolTip()
     {
         gameObject.SetActive(false);
-        textcomponent.text = string.Empty;
+        headerfield.text = string.Empty;
+        contentfield.text = string.Empty;
     }
 }

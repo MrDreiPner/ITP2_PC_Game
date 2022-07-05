@@ -72,7 +72,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: This castle
+  header: Castle
+  content: Defend your castle while annihilating your enemy
 --- !u!222 &7976389751569814250
 CanvasRenderer:
   m_ObjectHideFlags: 0

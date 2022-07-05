@@ -69,4 +69,29 @@ public class Siege : Units
     public override void Moving() { }
     //falls wait() für alle gleich ist hier implementieren
     public override void Wait() { }
+
+
+    //For Displaying Ingame Stats on Hovering with Mouse
+    private void OnMouseEnter()
+    {
+        StopAllCoroutines();
+        StartCoroutine(StartTimer());
+    }
+
+    private void OnMouseExit()
+    {
+        StopAllCoroutines();
+        TooltipManager._instance.HideToolTip();
+    }
+
+    private IEnumerator StartTimer()
+    {
+        float timetowait = 0.5f;
+        string header = "Siege";
+        string content = "HP: " + hp.ToString() + "\nAttack: " + atk.ToString() + "\nDefense: " + def.ToString() + "\nMove: " + move.ToString() + "\nRange: " + range.ToString() + "\nCost: " + cost.ToString();
+
+        yield return new WaitForSeconds(timetowait);
+
+        TooltipManager._instance.SetAndShowToolTip(header, content);
+    }
 }

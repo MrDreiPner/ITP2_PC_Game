@@ -71,7 +71,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1630fde81115e8a4c94a717347dfe532, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: This forest
+  header: Forest
+  content: 'All: Movement-
+
+    Cavalry: Defense-
+
+    Infantry & Range: Defense+'
 --- !u!222 &3093864284038488587
 CanvasRenderer:
   m_ObjectHideFlags: 0
