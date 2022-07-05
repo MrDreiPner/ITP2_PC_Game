@@ -22,7 +22,7 @@ public class Movement : MonoBehaviour
         
         GameObject unitMovePoint = new GameObject("MovePoint");
         //movePoint = null;
-        unitMovePoint.transform.position = new Vector3(transform.position.x, transform.position.y, 0);
+        unitMovePoint.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
         movePoint = unitMovePoint.transform;
         this.transform.GetComponent<Units>().movePoint = unitMovePoint.transform;
         unitMovePoint.transform.parent = this.transform.parent;
