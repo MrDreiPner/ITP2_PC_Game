@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
         {
             for(int i = 0; i< transform.childCount; i++)
             {
-                if (transform.GetChild(i).name == "MovePoint") break;
+                if (transform.GetChild(i).name == "MovePoint") continue;
                 if (transform.GetChild(i).position.x == Castle.x && transform.GetChild(i).position.y == Castle.y)
                 {
                     ownEnemyCastle = true;
@@ -86,7 +86,7 @@ public class Player : MonoBehaviour
        
         for (int i = 0; i < (transform.childCount); i++)
         {
-            if (transform.GetChild(i).name == "MovePoint") break;
+            if (transform.GetChild(i).name == "MovePoint") continue;
             if (transform.GetChild(i).GetComponent<Units>().type == Units.Types.infantry)
             {
                 transform.GetChild(i).GetComponent<Units>().move = 4;
